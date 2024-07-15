@@ -165,6 +165,11 @@ set.atmos.individual <- function(atmos.model.description) {
 #' @author juaco
 #' @keywords internal
 
+# ## Atmos chem
+# sapply(1:length(scenMIP.models), function(i) {
+#     scenMIP.models[[i]][["model_component"]][["atmosChem"]]$description
+# }) %>% unique()
+
 set.atmosChem.individual <- function(atmosChem.model.description) {
     switch(atmosChem.model.description,
            "none" = "none",
@@ -208,6 +213,11 @@ set.atmosChem.individual <- function(atmosChem.model.description) {
 #'    to ambiguities when URIs are used in different contexts. 
 #' @author juaco
 #' @keywords internal
+
+# ## Land
+# sapply(1:length(scenMIP.models), function(i) {
+#     scenMIP.models[[i]][["model_component"]][["land"]]$description
+# }) %>% unique()
 
 set.land.individual <- function(land.model.description) {
     switch(land.model.description,
@@ -271,6 +281,15 @@ set.land.individual <- function(land.model.description) {
 #' @author juaco
 #' @keywords internal
 
+# ## LandIce
+# sapply(1:length(scenMIP.models), function(i) {
+#     scenMIP.models[[i]][["model_component"]][["landIce"]]$description
+# }) %>% unique()
+# cbind.data.frame(
+#     "desc" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["landIce"]]$description),
+#     "res" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["landIce"]]$native_nominal_resolution)
+# )
+
 set.landice.individual <- function(landice.model.description) {
     switch(landice.model.description,
            "none" = "none",
@@ -302,6 +321,15 @@ set.landice.individual <- function(landice.model.description) {
 #'    to ambiguities when URIs are used in different contexts. 
 #' @author juaco
 #' @keywords internal
+
+# ## Ocean
+# sapply(1:length(scenMIP.models), function(i) {
+#     scenMIP.models[[i]][["model_component"]][["ocean"]]$description
+# }) %>% unique()
+# cbind.data.frame(
+#     "desc" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["ocean"]]$description),
+#     "res" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["ocean"]]$native_nominal_resolution)
+# )
 
 set.ocean.individual <- function(ocean.model.description) {
     switch(ocean.model.description,
@@ -370,6 +398,15 @@ set.ocean.individual <- function(ocean.model.description) {
 #' @author juaco
 #' @keywords internal
 
+# ## ocnBgchem
+# sapply(1:length(scenMIP.models), function(i) {
+#     scenMIP.models[[i]][["model_component"]][["ocnBgchem"]]$description
+# }) %>% unique()
+# cbind.data.frame(
+#     "desc" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["ocean"]]$description),
+#     "res" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["ocean"]]$native_nominal_resolution)
+# )
+
 set.ocnBgchem.individual <- function(ocnBgchem.model.description) {
     switch(ocnBgchem.model.description,
            "none" = "none",
@@ -413,27 +450,15 @@ set.ocnBgchem.individual <- function(ocnBgchem.model.description) {
 #'    to ambiguities when URIs are used in different contexts. 
 #' @author juaco
 #' @keywords internal
-#' @examples
-#' # example code (for checking out CMIP6 vocabulary)
-#' url <- "https://raw.githubusercontent.com/WCRP-CMIP/CMIP6_CVs/main/CMIP6_source_id.json"
-#' ## List of all models
-#' model.list <- fromJSON(url) %>% extract2("source_id")
-#' ## Filter Models participating in ScenarioMIP
-#' ind <- sapply(model.list, "[[", "activity_participation") %>% sapply(., "match", "ScenarioMIP") %>% sapply(., function(x) {
-#' !all(is.na(x))
-#' }) %>% which(isTRUE(.)) 
-#' 
-#' ## Final list
-#' scenMIP.models <- model.list[ind] 
-#' ## Component name
-#' component <- "seaIce"
-#' sapply(1:length(scenMIP.models), function(i) {
-#' scenMIP.models[[i]][["model_component"]][[component]]$description
-#' }) %>% unique()
-#' # cbind.data.frame(
-#' #  "desc" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][[component]]$description),
-#' #  "res" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][[component]]$native_nominal_resolution)
-#' # )
+
+# ## seaIce
+# sapply(1:length(scenMIP.models), function(i) {
+#     scenMIP.models[[i]][["model_component"]][["seaIce"]]$description
+# }) %>% unique()
+# cbind.data.frame(
+#     "desc" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["ocean"]]$description),
+#     "res" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["ocean"]]$native_nominal_resolution)
+# )
 
 set.seaice.individual <- function(seaice.model.description) {
     switch(seaice.model.description,
@@ -489,15 +514,6 @@ set.seaice.individual <- function(seaice.model.description) {
 #'  leaving details for the dc:description field.
 #' @author juaco
 #' @keywords internal
-#' ## Component name
-#' component <- "seaIce"
-#' sapply(1:length(scenMIP.models), function(i) {
-#' scenMIP.models[[i]][["model_component"]][[component]]$description
-#' }) %>% unique()
-#' cbind.data.frame(
-#'  "desc" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][[component]]$description),
-#'  "res" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][[component]]$native_nominal_resolution)
-#' )
 
 setIndividual <- function(model.comp, descr) {
     model.comp <- match.arg(model.comp,
