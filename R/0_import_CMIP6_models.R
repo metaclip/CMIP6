@@ -45,8 +45,8 @@ con <- file(owl.file, open = "a")
 
 # Vocabulary name
 
-voc <- "http://www.metaclip.org/ScenarioMIP-models.owl"
-
+# voc <- "http://www.metaclip.org/ScenarioMIP-models.owl"
+voc <- "https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl"
 
 ## Assert classes --------------------------------------------------------------
 #<!-- http://www.metaclip.org/datasource/datasource.owl#RCM -->
