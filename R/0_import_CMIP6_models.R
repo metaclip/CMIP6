@@ -45,83 +45,20 @@ con <- file(owl.file, open = "a")
 
 # Vocabulary name
 
-voc <- "http://www.metaclip.org/CMIP6/ScenarioMIP-models.owl"
+voc <- "http://www.metaclip.org/ScenarioMIP-models.owl"
 
-
-## @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-## Include individuals ---------------------------------------------------------
-
-model.components <- c("aerosol", "atmos", "atmosChem",
-                      "land", "landIce", "ocean",
-                      "ocnBgchem", "seaIce")
-
-sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["ocnBgchem"]]$description)
-
-sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["ocnBgchem"]])
-
-# aerosol.models <- sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["aerosol"]]$description)
-# aerosol.nom.res <- sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["aerosol"]]$native_nominal_resolution)
-# cbind(aerosol.models, aerosol.nom.res)
-# names(scenMIP.models)
-# unique(aerosol.models)
-# scenMIP.models[i]$release_year
-
-# ## Atmos chem
-# sapply(1:length(scenMIP.models), function(i) {
-#     scenMIP.models[[i]][["model_component"]][["atmosChem"]]$description
-# }) %>% unique()
-# 
-# ## Land
-# sapply(1:length(scenMIP.models), function(i) {
-#     scenMIP.models[[i]][["model_component"]][["land"]]$description
-# }) %>% unique()
-# 
-# ## LandIce
-# sapply(1:length(scenMIP.models), function(i) {
-#     scenMIP.models[[i]][["model_component"]][["landIce"]]$description
-# }) %>% unique()
-# cbind.data.frame(
-#     "desc" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["landIce"]]$description),
-#     "res" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["landIce"]]$native_nominal_resolution)
-# )
-
-# ## Ocean
-# sapply(1:length(scenMIP.models), function(i) {
-#     scenMIP.models[[i]][["model_component"]][["ocean"]]$description
-# }) %>% unique()
-# cbind.data.frame(
-#     "desc" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["ocean"]]$description),
-#     "res" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["ocean"]]$native_nominal_resolution)
-# )
-
-# ## ocnBgchem
-# sapply(1:length(scenMIP.models), function(i) {
-#     scenMIP.models[[i]][["model_component"]][["ocnBgchem"]]$description
-# }) %>% unique()
-# cbind.data.frame(
-#     "desc" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["ocean"]]$description),
-#     "res" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["ocean"]]$native_nominal_resolution)
-# )
-# 
-# ## seaIce
-# sapply(1:length(scenMIP.models), function(i) {
-#     scenMIP.models[[i]][["model_component"]][["seaIce"]]$description
-# }) %>% unique()
-# cbind.data.frame(
-#     "desc" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["ocean"]]$description),
-#     "res" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["ocean"]]$native_nominal_resolution)
-# )
-
-model.components <- c("aerosol", "atmos", "atmosChem",
-                      "land", "landIce", "ocean",
-                      "ocnBgchem", "seaIce")
 
 ## Assert classes --------------------------------------------------------------
 #<!-- http://www.metaclip.org/datasource/datasource.owl#RCM -->
 #<owl:Class rdf:about="http://www.metaclip.org/datasource/datasource.owl#RCM"/>
 
+## @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+## Include individuals ---------------------------------------------------------
+## @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-
+model.components <- c("aerosol", "atmos", "atmosChem",
+                      "land", "landIce", "ocean",
+                      "ocnBgchem", "seaIce")
 
 cat("\t<!--\n", file = con, append = TRUE) 
 cat("\t///////////////////////////////////////////////////////////////////////////////////////\n",
