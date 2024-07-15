@@ -1,14 +1,29 @@
 #' @title Reset OWL template
 #' @description Overwrite the template.owl file in the main working directory by the blank template
+#' @param voc Character string. Which vocabulary is reset?. Currently available
+#'  choices are \code{"models"} (the default) and \code{"institutions"}.
+#' @note
+#' For safety, the function will ask for confirmation 
 #' @author juaco
 #' @keywords internal
 
-restart.owl <- function() {
+restart.owl <- function(voc = "models") {
+    voc <- match.arg(voc, choices = c("models", "institutions"))
+    owl.file <- switch(voc,
+                       "models" = "ScenarioMIP-models.owl",
+                       "institutions" = "CMIP6-institutions.owl")
     choice <- menu(choices = c("yes", "no"),
-                   title = "This will reset 'template.owl' in main working dir by a blank template... are you sure?")
+                   title = paste("This will reset", owl.file, 
+                   "in main working dir by a blank template... are you sure?"))
     if (choice == 1) {
-        system("cp -f aux/owl_template/template.owl ScenarioMIP-models.owl")    
-        message("'ScenarioMIP-models.owl' was reset")
+        system(paste("cp -f aux/owl_template/template.owl", owl.file))
+        if (voc == "institutions") {
+            lines <- readLines("CMIP6-institutions.owl")
+            lines <- gsub("ScenarioMIP-models.owl",
+                          "CMIP6-institutions.owl", lines)
+            writeLines(lines, owl.file)
+        }
+        message(owl.file, " was reset")
     } else {
         message("action declined, nothing was done")
     }
