@@ -1,6 +1,9 @@
 # Rstudio project
 *.Rproj
 
+# Protege
+catalog*
+
 # History files
 .Rhistory
 .Rapp.history
