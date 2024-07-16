@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <rdf:RDF xmlns="https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#" 
      xml:base="https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl" 
      xmlns:dc="http://purl.org/dc/elements/1.1/"
