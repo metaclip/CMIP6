@@ -4,6 +4,9 @@
 # Protege
 catalog*
 
+# Scratch folder
+ignore
+
 # History files
 .Rhistory
 .Rapp.history
