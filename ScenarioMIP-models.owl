@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <rdf:RDF xmlns="https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#" 
      xml:base="https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl" 
      xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -17,7 +18,7 @@
         <owl:imports rdf:resource="http://www.w3.org/ns/prov-o-20130430"/>
         <dc:creator xml:lang="en">Santander Meteorology Group</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-15T08:45:00Z</dc:date>
-        <dc:description xml:lang="en">Definition of individual entities of CMIP6-ScenarioMIP, extending some the classes of the METACLIP framework</dc:description>
+        <dc:description xml:lang="en">Definition of individual entities of CMIP6, extending some the classes of the METACLIP framework</dc:description>
         <dc:title xml:lang="en">METACLIP bindings of the CMIP6 controled vocabularies for ScenarioMIP entities</dc:title>
         <terms:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://orcid.org/0000-0001-6219-4312</terms:contributor>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.metaclip.org</rdfs:seeAlso>
@@ -45,7 +46,7 @@
 		<ds:release_year>2019</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>access_csiro@csiro.au</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#ACCESS-CM2_aerosol_UKCA-GLOMAP-mode 
@@ -57,7 +58,7 @@
 		<rdfs:label>UKCA-GLOMAP-mode</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#ACCESS-CM2_atmos_MetUM-HadGEM3-GA7.1 
@@ -69,7 +70,7 @@
 		<rdfs:label>MetUM-HadGEM3-GA7.1</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#ACCESS-CM2_land_CABLE2 
@@ -81,7 +82,7 @@
 		<rdfs:label>CABLE2</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#ACCESS-CM2_ocean_ACCESS-OM2 
@@ -93,7 +94,7 @@
 		<rdfs:label>ACCESS-OM2</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#ACCESS-CM2_seaIce_CICE5.1.2 
@@ -105,7 +106,7 @@
 		<rdfs:label>CICE5.1.2</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#ACCESS-ESM1-5 
 	-->
@@ -117,7 +118,7 @@
 		<ds:release_year>2019</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>access_csiro@csiro.au</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#ACCESS-ESM1-5_aerosol_CLASSIC 
@@ -129,7 +130,7 @@
 		<rdfs:label>CLASSIC</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#ACCESS-ESM1-5_atmos_HadGAM2 
@@ -141,7 +142,7 @@
 		<rdfs:label>HadGAM2</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#ACCESS-ESM1-5_land_CABLE2 
@@ -153,7 +154,7 @@
 		<rdfs:label>CABLE2</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#ACCESS-ESM1-5_ocean_ACCESS-OM2 
@@ -165,7 +166,7 @@
 		<rdfs:label>ACCESS-OM2</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#ACCESS-ESM1-5_ocnBgchem_WOMBAT 
@@ -177,7 +178,7 @@
 		<rdfs:label>WOMBAT</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#ACCESS-ESM1-5_seaIce_CICE4.1 
@@ -189,7 +190,7 @@
 		<rdfs:label>CICE4.1</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#AWI-CM-1-1-LR 
 	-->
@@ -201,7 +202,7 @@
 		<ds:release_year>2018</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>mip-contact@awi.de</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#AWI-CM-1-1-LR_atmos_ECHAM6.3 
@@ -213,7 +214,7 @@
 		<rdfs:label>ECHAM6.3</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#AWI-CM-1-1-LR_land_JSBACH3.20 
@@ -225,7 +226,7 @@
 		<rdfs:label>JSBACH3.20</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#AWI-CM-1-1-LR_ocean_FESOM1.4 
@@ -237,7 +238,7 @@
 		<rdfs:label>FESOM1.4</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#AWI-CM-1-1-LR_seaIce_FESOM1.4 
@@ -249,7 +250,7 @@
 		<rdfs:label>FESOM1.4</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#AWI-CM-1-1-MR 
 	-->
@@ -261,7 +262,7 @@
 		<ds:release_year>2018</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>mip-contact@awi.de</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#AWI-CM-1-1-MR_atmos_ECHAM6.3 
@@ -273,7 +274,7 @@
 		<rdfs:label>ECHAM6.3</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#AWI-CM-1-1-MR_land_JSBACH3.20 
@@ -285,7 +286,7 @@
 		<rdfs:label>JSBACH3.20</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#AWI-CM-1-1-MR_ocean_FESOM1.4 
@@ -297,7 +298,7 @@
 		<rdfs:label>FESOM1.4</rdfs:label>
 		<ds:hasNominalResolution>25 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#AWI-CM-1-1-MR_seaIce_FESOM1.4 
@@ -309,7 +310,7 @@
 		<rdfs:label>FESOM1.4</rdfs:label>
 		<ds:hasNominalResolution>25 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#AWI-ESM-1-REcoM 
 	-->
@@ -321,7 +322,7 @@
 		<ds:release_year>2024</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>mip-contact@awi.de</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#AWI-ESM-1-REcoM_atmos_ECHAM6.3 
@@ -333,7 +334,7 @@
 		<rdfs:label>ECHAM6.3</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#AWI-ESM-1-REcoM_land_JSBACH3.20-dynamic-veg 
@@ -345,7 +346,7 @@
 		<rdfs:label>JSBACH3.20-dynamic-veg</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#AWI-ESM-1-REcoM_ocean_FESOM1.4 
@@ -357,7 +358,7 @@
 		<rdfs:label>FESOM1.4</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#AWI-ESM-1-REcoM_ocnBgchem_REcoM2 
@@ -369,7 +370,7 @@
 		<rdfs:label>REcoM2</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#AWI-ESM-1-REcoM_seaIce_FESOM1.4 
@@ -381,7 +382,7 @@
 		<rdfs:label>FESOM1.4</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#BCC-CSM2-MR 
 	-->
@@ -393,7 +394,7 @@
 		<ds:release_year>2017</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>twwu@cma.gov.cn</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#BCC-CSM2-MR_atmos_BCC_AGCM3_MR 
@@ -405,7 +406,7 @@
 		<rdfs:label>BCC_AGCM3_MR</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#BCC-CSM2-MR_land_BCC_AVIM2 
@@ -417,7 +418,7 @@
 		<rdfs:label>BCC_AVIM2</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#BCC-CSM2-MR_ocean_MOM4 
@@ -429,7 +430,7 @@
 		<rdfs:label>MOM4</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#BCC-CSM2-MR_seaIce_SIS2 
@@ -441,7 +442,7 @@
 		<rdfs:label>SIS2</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CAMS-CSM1-0 
 	-->
@@ -453,7 +454,7 @@
 		<ds:release_year>2016</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>rongxy@cma.gov.cn</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CAMS-CSM1-0_atmos_ECHAM5 
@@ -465,7 +466,7 @@
 		<rdfs:label>ECHAM5</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CAMS-CSM1-0_land_CoLM 
@@ -477,7 +478,7 @@
 		<rdfs:label>CoLM</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CAMS-CSM1-0_ocean_MOM4 
@@ -489,7 +490,7 @@
 		<rdfs:label>MOM4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CAMS-CSM1-0_seaIce_SIS1.0 
@@ -501,7 +502,7 @@
 		<rdfs:label>SIS1.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CAS-ESM2-0 
 	-->
@@ -513,7 +514,7 @@
 		<ds:release_year>2019</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>zhanghe@mail.iap.ac.cn</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CAS-ESM2-0_aerosol_IAP-AACM 
@@ -525,7 +526,7 @@
 		<rdfs:label>IAP-AACM</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CAS-ESM2-0_atmos_IAP-AGCM5.0 
@@ -537,7 +538,7 @@
 		<rdfs:label>IAP-AGCM5.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CAS-ESM2-0_atmosChem_IAP-AACM 
@@ -549,7 +550,7 @@
 		<rdfs:label>IAP-AACM</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CAS-ESM2-0_land_CoLM 
@@ -561,7 +562,7 @@
 		<rdfs:label>CoLM</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CAS-ESM2-0_ocean_LICOM2.0 
@@ -573,7 +574,7 @@
 		<rdfs:label>LICOM2.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CAS-ESM2-0_ocnBgchem_IAP-OBGCM 
@@ -585,7 +586,7 @@
 		<rdfs:label>IAP-OBGCM</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CAS-ESM2-0_seaIce_CICE4 
@@ -597,7 +598,7 @@
 		<rdfs:label>CICE4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2 
 	-->
@@ -609,7 +610,7 @@
 		<ds:release_year>2018</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>cesm_cmip6@ucar.edu</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2_aerosol_MAM4 
@@ -621,7 +622,7 @@
 		<rdfs:label>MAM4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2_atmos_CAM6 
@@ -633,7 +634,7 @@
 		<rdfs:label>CAM6</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2_atmosChem_MAM4 
@@ -645,7 +646,7 @@
 		<rdfs:label>MAM4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2_land_CLM5 
@@ -657,7 +658,7 @@
 		<rdfs:label>CLM5</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2_landIce_CISM2.1 
@@ -669,7 +670,7 @@
 		<rdfs:label>CISM2.1</rdfs:label>
 		<ds:hasNominalResolution>5 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2_ocean_POP2 
@@ -681,7 +682,7 @@
 		<rdfs:label>POP2</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2_ocnBgchem_MARBL 
@@ -693,7 +694,7 @@
 		<rdfs:label>MARBL</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2_seaIce_CICE5.1 
@@ -705,7 +706,7 @@
 		<rdfs:label>CICE5.1</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2-FV2 
 	-->
@@ -717,7 +718,7 @@
 		<ds:release_year>2019</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>cesm_cmip6@ucar.edu</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2-FV2_aerosol_MAM4 
@@ -729,7 +730,7 @@
 		<rdfs:label>MAM4</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2-FV2_atmos_CAM6 
@@ -741,7 +742,7 @@
 		<rdfs:label>CAM6</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2-FV2_atmosChem_MAM4 
@@ -753,7 +754,7 @@
 		<rdfs:label>MAM4</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2-FV2_land_CLM5 
@@ -765,7 +766,7 @@
 		<rdfs:label>CLM5</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2-FV2_landIce_CISM2.1 
@@ -777,7 +778,7 @@
 		<rdfs:label>CISM2.1</rdfs:label>
 		<ds:hasNominalResolution>5 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2-FV2_ocean_POP2 
@@ -789,7 +790,7 @@
 		<rdfs:label>POP2</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2-FV2_ocnBgchem_MARBL 
@@ -801,7 +802,7 @@
 		<rdfs:label>MARBL</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2-FV2_seaIce_CICE5.1 
@@ -813,7 +814,7 @@
 		<rdfs:label>CICE5.1</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2-WACCM 
 	-->
@@ -825,7 +826,7 @@
 		<ds:release_year>2018</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>cesm_cmip6@ucar.edu</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2-WACCM_aerosol_MAM4 
@@ -837,7 +838,7 @@
 		<rdfs:label>MAM4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2-WACCM_atmos_WACCM6 
@@ -849,7 +850,7 @@
 		<rdfs:label>WACCM6</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2-WACCM_atmosChem_MAM4 
@@ -861,7 +862,7 @@
 		<rdfs:label>MAM4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2-WACCM_land_CLM5 
@@ -873,7 +874,7 @@
 		<rdfs:label>CLM5</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2-WACCM_landIce_CISM2.1 
@@ -885,7 +886,7 @@
 		<rdfs:label>CISM2.1</rdfs:label>
 		<ds:hasNominalResolution>5 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2-WACCM_ocean_POP2 
@@ -897,7 +898,7 @@
 		<rdfs:label>POP2</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2-WACCM_ocnBgchem_MARBL 
@@ -909,7 +910,7 @@
 		<rdfs:label>MARBL</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CESM2-WACCM_seaIce_CICE5.1 
@@ -921,7 +922,7 @@
 		<rdfs:label>CICE5.1</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CIESM 
 	-->
@@ -933,7 +934,7 @@
 		<ds:release_year>2017</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>yanluan@tsinghua.edu.cn</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CIESM_aerosol_MAM4 
@@ -945,7 +946,7 @@
 		<rdfs:label>MAM4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CIESM_atmos_CIESM-AM 
@@ -957,7 +958,7 @@
 		<rdfs:label>CIESM-AM</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CIESM_atmosChem_trop_mam4 
@@ -969,7 +970,7 @@
 		<rdfs:label>trop_mam4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CIESM_land_CIESM-LM 
@@ -981,7 +982,7 @@
 		<rdfs:label>CIESM-LM</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CIESM_ocean_CIESM-OM 
@@ -993,7 +994,7 @@
 		<rdfs:label>CIESM-OM</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CIESM_seaIce_CICE4 
@@ -1005,7 +1006,7 @@
 		<rdfs:label>CICE4</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CMCC-CM2-SR5 
 	-->
@@ -1017,7 +1018,7 @@
 		<ds:release_year>2016</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>silvio.gualdi@cmcc.it</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CMCC-CM2-SR5_aerosol_MAM3 
@@ -1029,7 +1030,7 @@
 		<rdfs:label>MAM3</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CMCC-CM2-SR5_atmos_CAM5.3 
@@ -1041,7 +1042,7 @@
 		<rdfs:label>CAM5.3</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CMCC-CM2-SR5_land_CLM4.5 
@@ -1053,7 +1054,7 @@
 		<rdfs:label>CLM4.5</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CMCC-CM2-SR5_ocean_NEMO3.6 
@@ -1065,7 +1066,7 @@
 		<rdfs:label>NEMO3.6</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CMCC-CM2-SR5_seaIce_CICE4.0 
@@ -1077,7 +1078,7 @@
 		<rdfs:label>CICE4.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CMCC-ESM2 
 	-->
@@ -1089,7 +1090,7 @@
 		<ds:release_year>2017</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>tomas.lovato@cmcc.it</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CMCC-ESM2_aerosol_MAM3 
@@ -1101,7 +1102,7 @@
 		<rdfs:label>MAM3</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CMCC-ESM2_atmos_CAM5.3 
@@ -1113,7 +1114,7 @@
 		<rdfs:label>CAM5.3</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CMCC-ESM2_land_CLM4.5 
@@ -1125,7 +1126,7 @@
 		<rdfs:label>CLM4.5</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CMCC-ESM2_ocean_NEMO3.6 
@@ -1137,7 +1138,7 @@
 		<rdfs:label>NEMO3.6</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CMCC-ESM2_ocnBgchem_BFM5.2 
@@ -1149,7 +1150,7 @@
 		<rdfs:label>BFM5.2</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CMCC-ESM2_seaIce_CICE4.0 
@@ -1161,7 +1162,7 @@
 		<rdfs:label>CICE4.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CNRM-CM6-1 
 	-->
@@ -1173,7 +1174,7 @@
 		<ds:release_year>2017</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>contact.cmip6@cerfacs.fr</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CNRM-CM6-1_aerosol_prescribed 
@@ -1185,7 +1186,7 @@
 		<rdfs:label>prescribed</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CNRM-CM6-1_atmos_Arpege6.3 
@@ -1197,7 +1198,7 @@
 		<rdfs:label>Arpege6.3</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CNRM-CM6-1_atmosChem_OZLv2 
@@ -1209,7 +1210,7 @@
 		<rdfs:label>OZLv2</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CNRM-CM6-1_land_Surfex8.0c 
@@ -1221,7 +1222,7 @@
 		<rdfs:label>Surfex8.0c</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CNRM-CM6-1_ocean_NEMO3.6 
@@ -1233,7 +1234,7 @@
 		<rdfs:label>NEMO3.6</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CNRM-CM6-1_seaIce_Gelato6.1 
@@ -1245,7 +1246,7 @@
 		<rdfs:label>Gelato6.1</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CNRM-CM6-1-HR 
 	-->
@@ -1257,7 +1258,7 @@
 		<ds:release_year>2017</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>contact.cmip6@cerfacs.fr</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CNRM-CM6-1-HR_aerosol_prescribed 
@@ -1269,7 +1270,7 @@
 		<rdfs:label>prescribed</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CNRM-CM6-1-HR_atmos_Arpege6.3 
@@ -1281,7 +1282,7 @@
 		<rdfs:label>Arpege6.3</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CNRM-CM6-1-HR_atmosChem_OZLv2 
@@ -1293,7 +1294,7 @@
 		<rdfs:label>OZLv2</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CNRM-CM6-1-HR_land_Surfex8.0c 
@@ -1305,7 +1306,7 @@
 		<rdfs:label>Surfex8.0c</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CNRM-CM6-1-HR_ocean_NEMO3.6 
@@ -1317,7 +1318,7 @@
 		<rdfs:label>NEMO3.6</rdfs:label>
 		<ds:hasNominalResolution>25 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CNRM-CM6-1-HR_seaIce_Gelato6.1 
@@ -1329,7 +1330,7 @@
 		<rdfs:label>Gelato6.1</rdfs:label>
 		<ds:hasNominalResolution>25 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CNRM-ESM2-1 
 	-->
@@ -1341,7 +1342,7 @@
 		<ds:release_year>2017</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>contact.cmip@meteo.fr</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CNRM-ESM2-1_aerosol_TACTIC_v2 
@@ -1353,7 +1354,7 @@
 		<rdfs:label>TACTIC_v2</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CNRM-ESM2-1_atmos_Arpege6.3 
@@ -1365,7 +1366,7 @@
 		<rdfs:label>Arpege6.3</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CNRM-ESM2-1_atmosChem_REPROBUS-C_v2 
@@ -1377,7 +1378,7 @@
 		<rdfs:label>REPROBUS-C_v2</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CNRM-ESM2-1_land_Surfex8.0c 
@@ -1389,7 +1390,7 @@
 		<rdfs:label>Surfex8.0c</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CNRM-ESM2-1_ocean_NEMO3.6 
@@ -1401,7 +1402,7 @@
 		<rdfs:label>NEMO3.6</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CNRM-ESM2-1_ocnBgchem_PISCES 
@@ -1413,7 +1414,7 @@
 		<rdfs:label>PISCES</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CNRM-ESM2-1_seaIce_Gelato6.1 
@@ -1425,7 +1426,7 @@
 		<rdfs:label>Gelato6.1</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5 
 	-->
@@ -1437,7 +1438,7 @@
 		<ds:release_year>2019</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>f.cccma.info-info.ccmac.f@ec.gc.ca</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5_aerosol_interactive 
@@ -1449,7 +1450,7 @@
 		<rdfs:label>interactive</rdfs:label>
 		<ds:hasNominalResolution>500 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5_atmos_CanAM5 
@@ -1461,7 +1462,7 @@
 		<rdfs:label>CanAM5</rdfs:label>
 		<ds:hasNominalResolution>500 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5_atmosChem_specified-oxidants-for-aerosols 
@@ -1473,7 +1474,7 @@
 		<rdfs:label>specified-oxidants-for-aerosols</rdfs:label>
 		<ds:hasNominalResolution>500 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5_land_CLASS3.6-CTEM1.2 
@@ -1485,7 +1486,7 @@
 		<rdfs:label>CLASS3.6-CTEM1.2</rdfs:label>
 		<ds:hasNominalResolution>500 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5_landIce_specified-ice-sheets 
@@ -1497,7 +1498,7 @@
 		<rdfs:label>specified-ice-sheets</rdfs:label>
 		<ds:hasNominalResolution>500 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5_ocean_NEMO3.4 
@@ -1509,7 +1510,7 @@
 		<rdfs:label>NEMO3.4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5_ocnBgchem_CMOC 
@@ -1521,7 +1522,7 @@
 		<rdfs:label>CMOC</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5_seaIce_LIM2 
@@ -1533,7 +1534,7 @@
 		<rdfs:label>LIM2</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5-1 
 	-->
@@ -1545,7 +1546,7 @@
 		<ds:release_year>2022</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>f.cccma.info-info.ccmac.f@ec.gc.ca</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5-1_aerosol_interactive 
@@ -1557,7 +1558,7 @@
 		<rdfs:label>interactive</rdfs:label>
 		<ds:hasNominalResolution>500 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5-1_atmos_CanAM5 
@@ -1569,7 +1570,7 @@
 		<rdfs:label>CanAM5</rdfs:label>
 		<ds:hasNominalResolution>500 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5-1_atmosChem_specified-oxidants-for-aerosols 
@@ -1581,7 +1582,7 @@
 		<rdfs:label>specified-oxidants-for-aerosols</rdfs:label>
 		<ds:hasNominalResolution>500 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5-1_land_CLASS3.6-CTEM1.2 
@@ -1593,7 +1594,7 @@
 		<rdfs:label>CLASS3.6-CTEM1.2</rdfs:label>
 		<ds:hasNominalResolution>500 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5-1_landIce_specified-ice-sheets 
@@ -1605,7 +1606,7 @@
 		<rdfs:label>specified-ice-sheets</rdfs:label>
 		<ds:hasNominalResolution>500 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5-1_ocean_NEMO3.4 
@@ -1617,7 +1618,7 @@
 		<rdfs:label>NEMO3.4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5-1_ocnBgchem_CMOC 
@@ -1629,7 +1630,7 @@
 		<rdfs:label>CMOC</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5-1_seaIce_LIM2 
@@ -1641,7 +1642,7 @@
 		<rdfs:label>LIM2</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5-CanOE 
 	-->
@@ -1653,7 +1654,7 @@
 		<ds:release_year>2019</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>f.cccma.info-info.ccmac.f@ec.gc.ca</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5-CanOE_aerosol_interactive 
@@ -1665,7 +1666,7 @@
 		<rdfs:label>interactive</rdfs:label>
 		<ds:hasNominalResolution>500 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5-CanOE_atmos_CanAM5 
@@ -1677,7 +1678,7 @@
 		<rdfs:label>CanAM5</rdfs:label>
 		<ds:hasNominalResolution>500 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5-CanOE_atmosChem_specified-oxidants-for-aerosols 
@@ -1689,7 +1690,7 @@
 		<rdfs:label>specified-oxidants-for-aerosols</rdfs:label>
 		<ds:hasNominalResolution>500 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5-CanOE_land_CLASS3.6-CTEM1.2 
@@ -1701,7 +1702,7 @@
 		<rdfs:label>CLASS3.6-CTEM1.2</rdfs:label>
 		<ds:hasNominalResolution>500 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5-CanOE_landIce_specified-ice-sheets 
@@ -1713,7 +1714,7 @@
 		<rdfs:label>specified-ice-sheets</rdfs:label>
 		<ds:hasNominalResolution>500 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5-CanOE_ocean_NEMO3.4 
@@ -1725,7 +1726,7 @@
 		<rdfs:label>NEMO3.4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5-CanOE_ocnBgchem_CanOE 
@@ -1737,7 +1738,7 @@
 		<rdfs:label>CanOE</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#CanESM5-CanOE_seaIce_LIM2 
@@ -1749,7 +1750,7 @@
 		<rdfs:label>LIM2</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-1-0 
 	-->
@@ -1761,7 +1762,7 @@
 		<ds:release_year>2018</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>e3sm-data-support@llnl.gov</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-1-0_aerosol_MAM4 
@@ -1773,7 +1774,7 @@
 		<rdfs:label>MAM4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-1-0_atmos_EAM 
@@ -1785,7 +1786,7 @@
 		<rdfs:label>EAM</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-1-0_atmosChem_troposhere-specified-oxidants-for-aerosols_LINOZv2 
@@ -1797,7 +1798,7 @@
 		<rdfs:label>troposhere-specified-oxidants-for-aerosols_LINOZv2</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-1-0_land_ELM_MOSART 
@@ -1809,7 +1810,7 @@
 		<rdfs:label>ELM_MOSART</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-1-0_ocean_MPAS-Ocean 
@@ -1821,7 +1822,7 @@
 		<rdfs:label>MPAS-Ocean</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-1-0_seaIce_MPAS-Seaice 
@@ -1833,7 +1834,7 @@
 		<rdfs:label>MPAS-Seaice</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-1-1 
 	-->
@@ -1845,7 +1846,7 @@
 		<ds:release_year>2019</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>e3sm-data-support@llnl.gov</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-1-1_aerosol_MAM4 
@@ -1857,7 +1858,7 @@
 		<rdfs:label>MAM4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-1-1_atmos_EAM 
@@ -1869,7 +1870,7 @@
 		<rdfs:label>EAM</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-1-1_atmosChem_troposhere-specified-oxidants-for-aerosols_LINOZv2 
@@ -1881,7 +1882,7 @@
 		<rdfs:label>troposhere-specified-oxidants-for-aerosols_LINOZv2</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-1-1_land_ELM_MOSART 
@@ -1893,7 +1894,7 @@
 		<rdfs:label>ELM_MOSART</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-1-1_ocean_MPAS-Ocean 
@@ -1905,7 +1906,7 @@
 		<rdfs:label>MPAS-Ocean</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-1-1_ocnBgchem_BEC 
@@ -1917,7 +1918,7 @@
 		<rdfs:label>BEC</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-1-1_seaIce_MPAS-Seaice 
@@ -1929,7 +1930,7 @@
 		<rdfs:label>MPAS-Seaice</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-1-1-ECA 
 	-->
@@ -1941,7 +1942,7 @@
 		<ds:release_year>2019</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>e3sm-data-support@llnl.gov</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-1-1-ECA_aerosol_MAM4 
@@ -1953,7 +1954,7 @@
 		<rdfs:label>MAM4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-1-1-ECA_atmos_EAM 
@@ -1965,7 +1966,7 @@
 		<rdfs:label>EAM</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-1-1-ECA_atmosChem_troposhere-specified-oxidants-for-aerosols_LINOZv2 
@@ -1977,7 +1978,7 @@
 		<rdfs:label>troposhere-specified-oxidants-for-aerosols_LINOZv2</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-1-1-ECA_land_ELM_MOSART 
@@ -1989,7 +1990,7 @@
 		<rdfs:label>ELM_MOSART</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-1-1-ECA_ocean_MPAS-Ocean 
@@ -2001,7 +2002,7 @@
 		<rdfs:label>MPAS-Ocean</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-1-1-ECA_ocnBgchem_BEC 
@@ -2013,7 +2014,7 @@
 		<rdfs:label>BEC</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-1-1-ECA_seaIce_MPAS-Seaice 
@@ -2025,7 +2026,7 @@
 		<rdfs:label>MPAS-Seaice</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-2-0 
 	-->
@@ -2037,7 +2038,7 @@
 		<ds:release_year>2022</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>e3sm-data-support@llnl.gov</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-2-0_aerosol_MAM4 
@@ -2049,7 +2050,7 @@
 		<rdfs:label>MAM4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-2-0_atmos_EAM 
@@ -2061,7 +2062,7 @@
 		<rdfs:label>EAM</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-2-0_atmosChem_troposhere-specified-oxidants-for-aerosols_LINOZv2 
@@ -2073,7 +2074,7 @@
 		<rdfs:label>troposhere-specified-oxidants-for-aerosols_LINOZv2</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-2-0_land_ELM_MOSART 
@@ -2085,7 +2086,7 @@
 		<rdfs:label>ELM_MOSART</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-2-0_ocean_MPAS-Ocean 
@@ -2097,7 +2098,7 @@
 		<rdfs:label>MPAS-Ocean</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#E3SM-2-0_seaIce_MPAS-Seaice 
@@ -2109,7 +2110,7 @@
 		<rdfs:label>MPAS-Seaice</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3 
 	-->
@@ -2121,7 +2122,7 @@
 		<ds:release_year>2019</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>cmip6-data@ec-earth.org</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3_atmos_IFS 
@@ -2133,7 +2134,7 @@
 		<rdfs:label>IFS</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3_land_HTESSEL 
@@ -2145,7 +2146,7 @@
 		<rdfs:label>HTESSEL</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3_ocean_NEMO3.6 
@@ -2157,7 +2158,7 @@
 		<rdfs:label>NEMO3.6</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3_seaIce_LIM3 
@@ -2169,7 +2170,7 @@
 		<rdfs:label>LIM3</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-AerChem 
 	-->
@@ -2181,7 +2182,7 @@
 		<ds:release_year>2019</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>cmip6-data@ec-earth.org</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-AerChem_aerosol_TM5 
@@ -2193,7 +2194,7 @@
 		<rdfs:label>TM5</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-AerChem_atmos_IFS 
@@ -2205,7 +2206,7 @@
 		<rdfs:label>IFS</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-AerChem_atmosChem_TM5 
@@ -2217,7 +2218,7 @@
 		<rdfs:label>TM5</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-AerChem_land_HTESSEL 
@@ -2229,7 +2230,7 @@
 		<rdfs:label>HTESSEL</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-AerChem_ocean_NEMO3.6 
@@ -2241,7 +2242,7 @@
 		<rdfs:label>NEMO3.6</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-AerChem_seaIce_LIM3 
@@ -2253,7 +2254,7 @@
 		<rdfs:label>LIM3</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-CC 
 	-->
@@ -2265,7 +2266,7 @@
 		<ds:release_year>2019</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>cmip6-data@ec-earth.org</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-CC_atmos_IFS 
@@ -2277,7 +2278,7 @@
 		<rdfs:label>IFS</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-CC_atmosChem_TM5 
@@ -2289,7 +2290,7 @@
 		<rdfs:label>TM5</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-CC_land_HTESSEL 
@@ -2301,7 +2302,7 @@
 		<rdfs:label>HTESSEL</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-CC_ocean_NEMO3.6 
@@ -2313,7 +2314,7 @@
 		<rdfs:label>NEMO3.6</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-CC_ocnBgchem_PISCES 
@@ -2325,7 +2326,7 @@
 		<rdfs:label>PISCES</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-CC_seaIce_LIM3 
@@ -2337,7 +2338,7 @@
 		<rdfs:label>LIM3</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-ESM-1 
 	-->
@@ -2349,7 +2350,7 @@
 		<ds:release_year>2024</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>cmip6-data@ec-earth.org</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-ESM-1_atmos_IFS 
@@ -2361,7 +2362,7 @@
 		<rdfs:label>IFS</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-ESM-1_land_HTESSEL 
@@ -2373,7 +2374,7 @@
 		<rdfs:label>HTESSEL</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-ESM-1_landIce_PISM1.2 
@@ -2385,7 +2386,7 @@
 		<rdfs:label>PISM1.2</rdfs:label>
 		<ds:hasNominalResolution>5 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-ESM-1_ocean_NEMO3.6 
@@ -2397,7 +2398,7 @@
 		<rdfs:label>NEMO3.6</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-ESM-1_ocnBgchem_PISCES 
@@ -2409,7 +2410,7 @@
 		<rdfs:label>PISCES</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-ESM-1_seaIce_LIM3 
@@ -2421,7 +2422,7 @@
 		<rdfs:label>LIM3</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-Veg 
 	-->
@@ -2433,7 +2434,7 @@
 		<ds:release_year>2019</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>cmip6-data@ec-earth.org</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-Veg_atmos_IFS 
@@ -2445,7 +2446,7 @@
 		<rdfs:label>IFS</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-Veg_land_HTESSEL 
@@ -2457,7 +2458,7 @@
 		<rdfs:label>HTESSEL</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-Veg_ocean_NEMO3.6 
@@ -2469,7 +2470,7 @@
 		<rdfs:label>NEMO3.6</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-Veg_seaIce_LIM3 
@@ -2481,7 +2482,7 @@
 		<rdfs:label>LIM3</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-Veg-LR 
 	-->
@@ -2493,7 +2494,7 @@
 		<ds:release_year>2019</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>cmip6-data@ec-earth.org</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-Veg-LR_atmos_IFS 
@@ -2505,7 +2506,7 @@
 		<rdfs:label>IFS</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-Veg-LR_land_HTESSEL 
@@ -2517,7 +2518,7 @@
 		<rdfs:label>HTESSEL</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-Veg-LR_ocean_NEMO3.6 
@@ -2529,7 +2530,7 @@
 		<rdfs:label>NEMO3.6</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#EC-Earth3-Veg-LR_seaIce_LIM3 
@@ -2541,7 +2542,7 @@
 		<rdfs:label>LIM3</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#FGOALS-f3-L 
 	-->
@@ -2553,7 +2554,7 @@
 		<ds:release_year>2017</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>linpf@mail.iap.ac.cn</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#FGOALS-f3-L_atmos_FAMIL2.2 
@@ -2565,7 +2566,7 @@
 		<rdfs:label>FAMIL2.2</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#FGOALS-f3-L_land_CLM4.0 
@@ -2577,7 +2578,7 @@
 		<rdfs:label>CLM4.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#FGOALS-f3-L_ocean_LICOM3.0 
@@ -2589,7 +2590,7 @@
 		<rdfs:label>LICOM3.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#FGOALS-f3-L_seaIce_CICE4.0 
@@ -2601,7 +2602,7 @@
 		<rdfs:label>CICE4.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#FGOALS-g3 
 	-->
@@ -2613,7 +2614,7 @@
 		<ds:release_year>2017</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>linpf@mail.iap.ac.cn</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#FGOALS-g3_atmos_GAMIL3 
@@ -2625,7 +2626,7 @@
 		<rdfs:label>GAMIL3</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#FGOALS-g3_land_CAS-LSM 
@@ -2637,7 +2638,7 @@
 		<rdfs:label>CAS-LSM</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#FGOALS-g3_ocean_LICOM3.0 
@@ -2649,7 +2650,7 @@
 		<rdfs:label>LICOM3.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#FGOALS-g3_seaIce_CICE4.0 
@@ -2661,7 +2662,7 @@
 		<rdfs:label>CICE4.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#FIO-ESM-2-0 
 	-->
@@ -2673,7 +2674,7 @@
 		<ds:release_year>2018</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>songroy@fio.org.cn</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#FIO-ESM-2-0_aerosol_prescribed 
@@ -2685,7 +2686,7 @@
 		<rdfs:label>prescribed</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#FIO-ESM-2-0_atmos_CAM4 
@@ -2697,7 +2698,7 @@
 		<rdfs:label>CAM4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#FIO-ESM-2-0_land_CLM4.0 
@@ -2709,7 +2710,7 @@
 		<rdfs:label>CLM4.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#FIO-ESM-2-0_ocean_POP2-W 
@@ -2721,7 +2722,7 @@
 		<rdfs:label>POP2-W</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#FIO-ESM-2-0_seaIce_CICE4.0 
@@ -2733,7 +2734,7 @@
 		<rdfs:label>CICE4.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GFDL-CM4 
 	-->
@@ -2745,7 +2746,7 @@
 		<ds:release_year>2018</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>gfdl.climate.model.info@noaa.gov</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GFDL-CM4_aerosol_interactive 
@@ -2757,7 +2758,7 @@
 		<rdfs:label>interactive</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GFDL-CM4_atmos_GFDL-AM4 
@@ -2769,7 +2770,7 @@
 		<rdfs:label>GFDL-AM4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GFDL-CM4_atmosChem_fast-chemistry-aerosol-only 
@@ -2781,7 +2782,7 @@
 		<rdfs:label>fast-chemistry-aerosol-only</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GFDL-CM4_land_GFDL-LM4 
@@ -2793,7 +2794,7 @@
 		<rdfs:label>GFDL-LM4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GFDL-CM4_landIce_GFDL-LM4 
@@ -2805,7 +2806,7 @@
 		<rdfs:label>GFDL-LM4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GFDL-CM4_ocean_GFDL-OM4 
@@ -2817,7 +2818,7 @@
 		<rdfs:label>GFDL-OM4</rdfs:label>
 		<ds:hasNominalResolution>25 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GFDL-CM4_ocnBgchem_GFDL-BLINGv2 
@@ -2829,7 +2830,7 @@
 		<rdfs:label>GFDL-BLINGv2</rdfs:label>
 		<ds:hasNominalResolution>25 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GFDL-CM4_seaIce_GFDL-SIM4p25 
@@ -2841,7 +2842,7 @@
 		<rdfs:label>GFDL-SIM4p25</rdfs:label>
 		<ds:hasNominalResolution>25 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GFDL-ESM4 
 	-->
@@ -2853,7 +2854,7 @@
 		<ds:release_year>2018</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>gfdl.climate.model.info@noaa.gov</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GFDL-ESM4_aerosol_interactive 
@@ -2865,7 +2866,7 @@
 		<rdfs:label>interactive</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GFDL-ESM4_atmos_GFDL-AM4 
@@ -2877,7 +2878,7 @@
 		<rdfs:label>GFDL-AM4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GFDL-ESM4_atmosChem_GFDL-ATMCHEM4.1 
@@ -2889,7 +2890,7 @@
 		<rdfs:label>GFDL-ATMCHEM4.1</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GFDL-ESM4_land_GFDL-LM4 
@@ -2901,7 +2902,7 @@
 		<rdfs:label>GFDL-LM4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GFDL-ESM4_landIce_GFDL-LM4 
@@ -2913,7 +2914,7 @@
 		<rdfs:label>GFDL-LM4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GFDL-ESM4_ocean_GFDL-OM4 
@@ -2925,7 +2926,7 @@
 		<rdfs:label>GFDL-OM4</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GFDL-ESM4_ocnBgchem_GFDL-COBALTv2 
@@ -2937,7 +2938,7 @@
 		<rdfs:label>GFDL-COBALTv2</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GFDL-ESM4_seaIce_GFDL-SIM4p5 
@@ -2949,7 +2950,7 @@
 		<rdfs:label>GFDL-SIM4p5</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-1-G 
 	-->
@@ -2961,7 +2962,7 @@
 		<ds:release_year>2019</ds:release_year>
 		<ds:license>Creative Commons CC0 1.0 Universal Public Domain Dedication (CC0 1.0; https://creativecommons.org/publicdomain/zero/1.0/)</ds:license>
 		<ds:exceptions_contact>cmip-giss-l@lists.nasa.gov</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-1-G_aerosol_varies-with-physics-version 
@@ -2973,7 +2974,7 @@
 		<rdfs:label>varies-with-physics-version</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-1-G_atmos_GISS-E2 
@@ -2985,7 +2986,7 @@
 		<rdfs:label>GISS-E2</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-1-G_atmosChem_Varies-with-physics-version 
@@ -2997,7 +2998,7 @@
 		<rdfs:label>Varies-with-physics-version</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-1-G_land_GISS-LSM 
@@ -3009,7 +3010,7 @@
 		<rdfs:label>GISS-LSM</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-1-G_ocean_GISS-Ocean 
@@ -3021,7 +3022,7 @@
 		<rdfs:label>GISS-Ocean</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-1-G_seaIce_GISS-SI 
@@ -3033,7 +3034,7 @@
 		<rdfs:label>GISS-SI</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-1-G-CC 
 	-->
@@ -3045,7 +3046,7 @@
 		<ds:release_year>2019</ds:release_year>
 		<ds:license>Creative Commons CC0 1.0 Universal Public Domain Dedication (CC0 1.0; https://creativecommons.org/publicdomain/zero/1.0/)</ds:license>
 		<ds:exceptions_contact>cmip-giss-l@lists.nasa.gov</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-1-G-CC_aerosol_varies-with-physics-version 
@@ -3057,7 +3058,7 @@
 		<rdfs:label>varies-with-physics-version</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-1-G-CC_atmos_GISS-E2 
@@ -3069,7 +3070,7 @@
 		<rdfs:label>GISS-E2</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-1-G-CC_atmosChem_Varies-with-physics-version 
@@ -3081,7 +3082,7 @@
 		<rdfs:label>Varies-with-physics-version</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-1-G-CC_land_GISS-LSM 
@@ -3093,7 +3094,7 @@
 		<rdfs:label>GISS-LSM</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-1-G-CC_landIce_Fixed 
@@ -3105,7 +3106,7 @@
 		<rdfs:label>Fixed</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-1-G-CC_ocean_GISS-Ocean 
@@ -3117,7 +3118,7 @@
 		<rdfs:label>GISS-Ocean</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-1-G-CC_ocnBgchem_NOBM 
@@ -3129,7 +3130,7 @@
 		<rdfs:label>NOBM</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-1-G-CC_seaIce_GISS-SI 
@@ -3141,7 +3142,7 @@
 		<rdfs:label>GISS-SI</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-1-H 
 	-->
@@ -3153,7 +3154,7 @@
 		<ds:release_year>2019</ds:release_year>
 		<ds:license>Creative Commons CC0 1.0 Universal Public Domain Dedication (CC0 1.0; https://creativecommons.org/publicdomain/zero/1.0/)</ds:license>
 		<ds:exceptions_contact>cmip-giss-l@lists.nasa.gov</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-1-H_aerosol_varies-with-physics-version 
@@ -3165,7 +3166,7 @@
 		<rdfs:label>varies-with-physics-version</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-1-H_atmos_GISS-E2 
@@ -3177,7 +3178,7 @@
 		<rdfs:label>GISS-E2</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-1-H_atmosChem_Varies-with-physics-version 
@@ -3189,7 +3190,7 @@
 		<rdfs:label>Varies-with-physics-version</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-1-H_land_GISS-LSM 
@@ -3201,7 +3202,7 @@
 		<rdfs:label>GISS-LSM</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-1-H_ocean_HYCOM-Ocean 
@@ -3213,7 +3214,7 @@
 		<rdfs:label>HYCOM-Ocean</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-1-H_seaIce_GISS-SI 
@@ -3225,7 +3226,7 @@
 		<rdfs:label>GISS-SI</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-2-G 
 	-->
@@ -3237,7 +3238,7 @@
 		<ds:release_year>2019</ds:release_year>
 		<ds:license>Creative Commons CC0 1.0 Universal Public Domain Dedication (CC0 1.0; https://creativecommons.org/publicdomain/zero/1.0/)</ds:license>
 		<ds:exceptions_contact>cmip-giss-l@lists.nasa.gov</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-2-G_aerosol_varies-with-physics-version 
@@ -3249,7 +3250,7 @@
 		<rdfs:label>varies-with-physics-version</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-2-G_atmos_GISS-E2 
@@ -3261,7 +3262,7 @@
 		<rdfs:label>GISS-E2</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-2-G_atmosChem_Varies-with-physics-version 
@@ -3273,7 +3274,7 @@
 		<rdfs:label>Varies-with-physics-version</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-2-G_land_GISS-LSM 
@@ -3285,7 +3286,7 @@
 		<rdfs:label>GISS-LSM</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-2-G_landIce_Fixed 
@@ -3297,7 +3298,7 @@
 		<rdfs:label>Fixed</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-2-G_ocean_GISS-Ocean 
@@ -3309,7 +3310,7 @@
 		<rdfs:label>GISS-Ocean</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-2-G_seaIce_GISS-SI 
@@ -3321,7 +3322,7 @@
 		<rdfs:label>GISS-SI</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-2-H 
 	-->
@@ -3333,7 +3334,7 @@
 		<ds:release_year>2021</ds:release_year>
 		<ds:license>Creative Commons CC0 1.0 Universal Public Domain Dedication (CC0 1.0; https://creativecommons.org/publicdomain/zero/1.0/)</ds:license>
 		<ds:exceptions_contact>cmip-giss-l@lists.nasa.gov</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-2-H_aerosol_varies-with-physics-version 
@@ -3345,7 +3346,7 @@
 		<rdfs:label>varies-with-physics-version</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-2-H_atmos_GISS-E2 
@@ -3357,7 +3358,7 @@
 		<rdfs:label>GISS-E2</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-2-H_atmosChem_Varies-with-physics-version 
@@ -3369,7 +3370,7 @@
 		<rdfs:label>Varies-with-physics-version</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-2-H_land_GISS-LSM 
@@ -3381,7 +3382,7 @@
 		<rdfs:label>GISS-LSM</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-2-H_ocean_HYCOM-Ocean 
@@ -3393,7 +3394,7 @@
 		<rdfs:label>HYCOM-Ocean</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E2-2-H_seaIce_GISS-SI 
@@ -3405,7 +3406,7 @@
 		<rdfs:label>GISS-SI</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E3-G 
 	-->
@@ -3417,7 +3418,7 @@
 		<ds:release_year>2020</ds:release_year>
 		<ds:license>Creative Commons CC0 1.0 Universal Public Domain Dedication (CC0 1.0; https://creativecommons.org/publicdomain/zero/1.0/)</ds:license>
 		<ds:exceptions_contact>cmip-giss-l@lists.nasa.gov</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E3-G_aerosol_varies-with-physics-version 
@@ -3429,7 +3430,7 @@
 		<rdfs:label>varies-with-physics-version</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E3-G_atmos_GISS-E3 
@@ -3441,7 +3442,7 @@
 		<rdfs:label>GISS-E3</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E3-G_atmosChem_Varies-with-physics-version 
@@ -3453,7 +3454,7 @@
 		<rdfs:label>Varies-with-physics-version</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E3-G_land_GISS-LSM 
@@ -3465,7 +3466,7 @@
 		<rdfs:label>GISS-LSM</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E3-G_ocean_GISS-Ocean 
@@ -3477,7 +3478,7 @@
 		<rdfs:label>GISS-Ocean</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#GISS-E3-G_seaIce_GISS-SI 
@@ -3489,7 +3490,7 @@
 		<rdfs:label>GISS-SI</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#HadGEM3-GC31-LL 
 	-->
@@ -3501,7 +3502,7 @@
 		<ds:release_year>2016</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>cmip6.hadgem3@metoffice.gov.uk</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#HadGEM3-GC31-LL_aerosol_UKCA-GLOMAP-mode 
@@ -3513,7 +3514,7 @@
 		<rdfs:label>UKCA-GLOMAP-mode</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#HadGEM3-GC31-LL_atmos_MetUM-HadGEM3-GA7.1 
@@ -3525,7 +3526,7 @@
 		<rdfs:label>MetUM-HadGEM3-GA7.1</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#HadGEM3-GC31-LL_land_JULES-HadGEM3-GL7.1 
@@ -3537,7 +3538,7 @@
 		<rdfs:label>JULES-HadGEM3-GL7.1</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#HadGEM3-GC31-LL_ocean_NEMO-HadGEM3-GO6.0 
@@ -3549,7 +3550,7 @@
 		<rdfs:label>NEMO-HadGEM3-GO6.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#HadGEM3-GC31-LL_seaIce_CICE-HadGEM3-GSI8 
@@ -3561,7 +3562,7 @@
 		<rdfs:label>CICE-HadGEM3-GSI8</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#HadGEM3-GC31-MM 
 	-->
@@ -3573,7 +3574,7 @@
 		<ds:release_year>2016</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>cmip6.hadgem3@metoffice.gov.uk</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#HadGEM3-GC31-MM_aerosol_UKCA-GLOMAP-mode 
@@ -3585,7 +3586,7 @@
 		<rdfs:label>UKCA-GLOMAP-mode</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#HadGEM3-GC31-MM_atmos_MetUM-HadGEM3-GA7.1 
@@ -3597,7 +3598,7 @@
 		<rdfs:label>MetUM-HadGEM3-GA7.1</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#HadGEM3-GC31-MM_land_JULES-HadGEM3-GL7.1 
@@ -3609,7 +3610,7 @@
 		<rdfs:label>JULES-HadGEM3-GL7.1</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#HadGEM3-GC31-MM_ocean_NEMO-HadGEM3-GO6.0 
@@ -3621,7 +3622,7 @@
 		<rdfs:label>NEMO-HadGEM3-GO6.0</rdfs:label>
 		<ds:hasNominalResolution>25 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#HadGEM3-GC31-MM_seaIce_CICE-HadGEM3-GSI8 
@@ -3633,7 +3634,7 @@
 		<rdfs:label>CICE-HadGEM3-GSI8</rdfs:label>
 		<ds:hasNominalResolution>25 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#IITM-ESM 
 	-->
@@ -3645,7 +3646,7 @@
 		<ds:release_year>2015</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>iitm-esm@tropmet.res.in</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#IITM-ESM_aerosol_prescribedMAC-v2 
@@ -3657,7 +3658,7 @@
 		<rdfs:label>prescribedMAC-v2</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#IITM-ESM_atmos_IITM-GFSv1 
@@ -3669,7 +3670,7 @@
 		<rdfs:label>IITM-GFSv1</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#IITM-ESM_land_NOAH-LSMv2.7.1 
@@ -3681,7 +3682,7 @@
 		<rdfs:label>NOAH-LSMv2.7.1</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#IITM-ESM_ocean_MOM4 
@@ -3693,7 +3694,7 @@
 		<rdfs:label>MOM4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#IITM-ESM_ocnBgchem_TOPAZ2.0 
@@ -3705,7 +3706,7 @@
 		<rdfs:label>TOPAZ2.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#IITM-ESM_seaIce_SIS1.0 
@@ -3717,7 +3718,7 @@
 		<rdfs:label>SIS1.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#INM-CM4-8 
 	-->
@@ -3729,7 +3730,7 @@
 		<ds:release_year>2016</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>volodinev@gmail.com</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#INM-CM4-8_aerosol_INM-AER1 
@@ -3741,7 +3742,7 @@
 		<rdfs:label>INM-AER1</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#INM-CM4-8_atmos_INM-AM4-8 
@@ -3753,7 +3754,7 @@
 		<rdfs:label>INM-AM4-8</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#INM-CM4-8_land_INM-LND1 
@@ -3765,7 +3766,7 @@
 		<rdfs:label>INM-LND1</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#INM-CM4-8_ocean_INM-OM5 
@@ -3777,7 +3778,7 @@
 		<rdfs:label>INM-OM5</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#INM-CM4-8_seaIce_INM-ICE1 
@@ -3789,7 +3790,7 @@
 		<rdfs:label>INM-ICE1</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#INM-CM5-0 
 	-->
@@ -3801,7 +3802,7 @@
 		<ds:release_year>2016</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>volodinev@gmail.com</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#INM-CM5-0_aerosol_INM-AER1 
@@ -3813,7 +3814,7 @@
 		<rdfs:label>INM-AER1</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#INM-CM5-0_atmos_INM-AM5-0 
@@ -3825,7 +3826,7 @@
 		<rdfs:label>INM-AM5-0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#INM-CM5-0_land_INM-LND1 
@@ -3837,7 +3838,7 @@
 		<rdfs:label>INM-LND1</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#INM-CM5-0_ocean_INM-OM5 
@@ -3849,7 +3850,7 @@
 		<rdfs:label>INM-OM5</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#INM-CM5-0_seaIce_INM-ICE1 
@@ -3861,7 +3862,7 @@
 		<rdfs:label>INM-ICE1</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#IPSL-CM5A2-INCA 
 	-->
@@ -3873,7 +3874,7 @@
 		<ds:release_year>2019</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>ipsl-cmip6@listes.ipsl.fr</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#IPSL-CM5A2-INCA_aerosol_INCAv6-NMHC-AER-S 
@@ -3885,7 +3886,7 @@
 		<rdfs:label>INCAv6-NMHC-AER-S</rdfs:label>
 		<ds:hasNominalResolution>500 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#IPSL-CM5A2-INCA_atmos_LMDZ 
@@ -3897,7 +3898,7 @@
 		<rdfs:label>LMDZ</rdfs:label>
 		<ds:hasNominalResolution>500 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#IPSL-CM5A2-INCA_atmosChem_INCAv6-NMHC-AER-S 
@@ -3909,7 +3910,7 @@
 		<rdfs:label>INCAv6-NMHC-AER-S</rdfs:label>
 		<ds:hasNominalResolution>500 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#IPSL-CM5A2-INCA_land_ORCHIDEE 
@@ -3921,7 +3922,7 @@
 		<rdfs:label>ORCHIDEE</rdfs:label>
 		<ds:hasNominalResolution>500 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#IPSL-CM5A2-INCA_ocean_NEMO-OPA 
@@ -3933,7 +3934,7 @@
 		<rdfs:label>NEMO-OPA</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#IPSL-CM5A2-INCA_ocnBgchem_NEMO-PISCES 
@@ -3945,7 +3946,7 @@
 		<rdfs:label>NEMO-PISCES</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#IPSL-CM5A2-INCA_seaIce_NEMO-LIM2 
@@ -3957,7 +3958,7 @@
 		<rdfs:label>NEMO-LIM2</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#IPSL-CM6A-LR 
 	-->
@@ -3969,7 +3970,7 @@
 		<ds:release_year>2017</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>ipsl-cmip6@listes.ipsl.fr</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#IPSL-CM6A-LR_atmos_LMDZ 
@@ -3981,7 +3982,7 @@
 		<rdfs:label>LMDZ</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#IPSL-CM6A-LR_land_ORCHIDEE 
@@ -3993,7 +3994,7 @@
 		<rdfs:label>ORCHIDEE</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#IPSL-CM6A-LR_ocean_NEMO-OPA 
@@ -4005,7 +4006,7 @@
 		<rdfs:label>NEMO-OPA</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#IPSL-CM6A-LR_ocnBgchem_NEMO-PISCES 
@@ -4017,7 +4018,7 @@
 		<rdfs:label>NEMO-PISCES</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#IPSL-CM6A-LR_seaIce_NEMO-LIM3 
@@ -4029,7 +4030,7 @@
 		<rdfs:label>NEMO-LIM3</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#KACE-1-0-G 
 	-->
@@ -4041,7 +4042,7 @@
 		<ds:release_year>2018</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>sunghm122@korea.kr</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#KACE-1-0-G_aerosol_UKCA-GLOMAP-mode 
@@ -4053,7 +4054,7 @@
 		<rdfs:label>UKCA-GLOMAP-mode</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#KACE-1-0-G_atmos_MetUM-HadGEM3-GA7.1 
@@ -4065,7 +4066,7 @@
 		<rdfs:label>MetUM-HadGEM3-GA7.1</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#KACE-1-0-G_land_JULES-HadGEM3-GL7.1 
@@ -4077,7 +4078,7 @@
 		<rdfs:label>JULES-HadGEM3-GL7.1</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#KACE-1-0-G_ocean_MOM4 
@@ -4089,7 +4090,7 @@
 		<rdfs:label>MOM4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#KACE-1-0-G_seaIce_CICE-HadGEM3-GSI8 
@@ -4101,7 +4102,7 @@
 		<rdfs:label>CICE-HadGEM3-GSI8</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#KIOST-ESM 
 	-->
@@ -4113,7 +4114,7 @@
 		<ds:release_year>2018</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>yhokim@pknu.ac.kr</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#KIOST-ESM_atmos_GFDL-AM2 
@@ -4125,7 +4126,7 @@
 		<rdfs:label>GFDL-AM2</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#KIOST-ESM_atmosChem_Simple-carbon-aerosol-model 
@@ -4137,7 +4138,7 @@
 		<rdfs:label>Simple-carbon-aerosol-model</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#KIOST-ESM_land_NCAR-CLM4 
@@ -4149,7 +4150,7 @@
 		<rdfs:label>NCAR-CLM4</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#KIOST-ESM_landIce_NCAR-CLM4 
@@ -4161,7 +4162,7 @@
 		<rdfs:label>NCAR-CLM4</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#KIOST-ESM_ocean_GFDL-MOM5.0 
@@ -4173,7 +4174,7 @@
 		<rdfs:label>GFDL-MOM5.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#KIOST-ESM_ocnBgchem_TOPAZ2.0 
@@ -4185,7 +4186,7 @@
 		<rdfs:label>TOPAZ2.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#KIOST-ESM_seaIce_GFDL-SIS 
@@ -4197,7 +4198,7 @@
 		<rdfs:label>GFDL-SIS</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MCM-UA-1-0 
 	-->
@@ -4209,7 +4210,7 @@
 		<ds:release_year>1991</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>GEOS-CMIP@email.arizona.edu</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MCM-UA-1-0_aerosol_Modified-surface-albedoes 
@@ -4221,7 +4222,7 @@
 		<rdfs:label>Modified-surface-albedoes</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MCM-UA-1-0_atmos_R30L14 
@@ -4233,7 +4234,7 @@
 		<rdfs:label>R30L14</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MCM-UA-1-0_land_Manabe 
@@ -4245,7 +4246,7 @@
 		<rdfs:label>Manabe</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MCM-UA-1-0_landIce_Time-invariant 
@@ -4257,7 +4258,7 @@
 		<rdfs:label>Time-invariant</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MCM-UA-1-0_ocean_MOM 1.0 
@@ -4269,7 +4270,7 @@
 		<rdfs:label>MOM 1.0</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MCM-UA-1-0_seaIce_thermodynamic 
@@ -4281,7 +4282,7 @@
 		<rdfs:label>thermodynamic</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MIROC-ES2H 
 	-->
@@ -4293,7 +4294,7 @@
 		<ds:release_year>2018</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>miroc-cmip6@jamstec.go.jp</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MIROC-ES2H_aerosol_SPRINTARS6.0 
@@ -4305,7 +4306,7 @@
 		<rdfs:label>SPRINTARS6.0</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MIROC-ES2H_atmos_CCSR-AGCM 
@@ -4317,7 +4318,7 @@
 		<rdfs:label>CCSR-AGCM</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MIROC-ES2H_atmosChem_CHASER4.0 
@@ -4329,7 +4330,7 @@
 		<rdfs:label>CHASER4.0</rdfs:label>
 		<ds:hasNominalResolution>500 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MIROC-ES2H_land_MATSIRO6.0_VISIT-e 
@@ -4341,7 +4342,7 @@
 		<rdfs:label>MATSIRO6.0_VISIT-e</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MIROC-ES2H_ocean_COCO4.9 
@@ -4353,7 +4354,7 @@
 		<rdfs:label>COCO4.9</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MIROC-ES2H_ocnBgchem_OECO2.0 
@@ -4365,7 +4366,7 @@
 		<rdfs:label>OECO2.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MIROC-ES2H_seaIce_COCO4.9 
@@ -4377,7 +4378,7 @@
 		<rdfs:label>COCO4.9</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MIROC-ES2L 
 	-->
@@ -4389,7 +4390,7 @@
 		<ds:release_year>2018</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>miroc-cmip6@jamstec.go.jp</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MIROC-ES2L_aerosol_SPRINTARS6.0 
@@ -4401,7 +4402,7 @@
 		<rdfs:label>SPRINTARS6.0</rdfs:label>
 		<ds:hasNominalResolution>500 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MIROC-ES2L_atmos_CCSR-AGCM 
@@ -4413,7 +4414,7 @@
 		<rdfs:label>CCSR-AGCM</rdfs:label>
 		<ds:hasNominalResolution>500 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MIROC-ES2L_land_MATSIRO6.0_VISIT-e 
@@ -4425,7 +4426,7 @@
 		<rdfs:label>MATSIRO6.0_VISIT-e</rdfs:label>
 		<ds:hasNominalResolution>500 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MIROC-ES2L_ocean_COCO4.9 
@@ -4437,7 +4438,7 @@
 		<rdfs:label>COCO4.9</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MIROC-ES2L_ocnBgchem_OECO2.0 
@@ -4449,7 +4450,7 @@
 		<rdfs:label>OECO2.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MIROC-ES2L_seaIce_COCO4.9 
@@ -4461,7 +4462,7 @@
 		<rdfs:label>COCO4.9</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MIROC6 
 	-->
@@ -4473,7 +4474,7 @@
 		<ds:release_year>2017</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>miroc-cmip6@jamstec.go.jp</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MIROC6_aerosol_SPRINTARS6.0 
@@ -4485,7 +4486,7 @@
 		<rdfs:label>SPRINTARS6.0</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MIROC6_atmos_CCSR-AGCM 
@@ -4497,7 +4498,7 @@
 		<rdfs:label>CCSR-AGCM</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MIROC6_land_MATSIRO6.0 
@@ -4509,7 +4510,7 @@
 		<rdfs:label>MATSIRO6.0</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MIROC6_ocean_COCO4.9 
@@ -4521,7 +4522,7 @@
 		<rdfs:label>COCO4.9</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MIROC6_seaIce_COCO4.9 
@@ -4533,7 +4534,7 @@
 		<rdfs:label>COCO4.9</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM-1-2-HAM 
 	-->
@@ -4545,7 +4546,7 @@
 		<ds:release_year>2017</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>aerchemmip_echam-ham@sympa.ethz.ch</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM-1-2-HAM_aerosol_HAM2.3 
@@ -4557,7 +4558,7 @@
 		<rdfs:label>HAM2.3</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM-1-2-HAM_atmos_ECHAM6.3 
@@ -4569,7 +4570,7 @@
 		<rdfs:label>ECHAM6.3</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM-1-2-HAM_atmosChem_sulfur-chemistry 
@@ -4581,7 +4582,7 @@
 		<rdfs:label>sulfur-chemistry</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM-1-2-HAM_land_JSBACH3.20 
@@ -4593,7 +4594,7 @@
 		<rdfs:label>JSBACH3.20</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM-1-2-HAM_ocean_MPIOM1.63 
@@ -4605,7 +4606,7 @@
 		<rdfs:label>MPIOM1.63</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM-1-2-HAM_ocnBgchem_HAMOCC 
@@ -4617,7 +4618,7 @@
 		<rdfs:label>HAMOCC</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM-1-2-HAM_seaIce_unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model) 
@@ -4629,7 +4630,7 @@
 		<rdfs:label>unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM1-2-HR 
 	-->
@@ -4641,7 +4642,7 @@
 		<ds:release_year>2017</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>cmip6-mpi-esm@dkrz.de</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM1-2-HR_aerosol_prescribed 
@@ -4653,7 +4654,7 @@
 		<rdfs:label>prescribed</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM1-2-HR_atmos_ECHAM6.3 
@@ -4665,7 +4666,7 @@
 		<rdfs:label>ECHAM6.3</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM1-2-HR_land_JSBACH3.20 
@@ -4677,7 +4678,7 @@
 		<rdfs:label>JSBACH3.20</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM1-2-HR_landIce_none_prescribed 
@@ -4689,7 +4690,7 @@
 		<rdfs:label>none_prescribed</rdfs:label>
 		<ds:hasNominalResolution>none</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM1-2-HR_ocean_MPIOM1.63 
@@ -4701,7 +4702,7 @@
 		<rdfs:label>MPIOM1.63</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM1-2-HR_ocnBgchem_HAMOCC 
@@ -4713,7 +4714,7 @@
 		<rdfs:label>HAMOCC</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM1-2-HR_seaIce_unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model) 
@@ -4725,7 +4726,7 @@
 		<rdfs:label>unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM1-2-LR 
 	-->
@@ -4737,7 +4738,7 @@
 		<ds:release_year>2017</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>cmip6-mpi-esm@dkrz.de</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM1-2-LR_aerosol_prescribed 
@@ -4749,7 +4750,7 @@
 		<rdfs:label>prescribed</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM1-2-LR_atmos_ECHAM6.3 
@@ -4761,7 +4762,7 @@
 		<rdfs:label>ECHAM6.3</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM1-2-LR_land_JSBACH3.20 
@@ -4773,7 +4774,7 @@
 		<rdfs:label>JSBACH3.20</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM1-2-LR_landIce_none_prescribed 
@@ -4785,7 +4786,7 @@
 		<rdfs:label>none_prescribed</rdfs:label>
 		<ds:hasNominalResolution>none</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM1-2-LR_ocean_MPIOM1.63 
@@ -4797,7 +4798,7 @@
 		<rdfs:label>MPIOM1.63</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM1-2-LR_ocnBgchem_HAMOCC 
@@ -4809,7 +4810,7 @@
 		<rdfs:label>HAMOCC</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MPI-ESM1-2-LR_seaIce_unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model) 
@@ -4821,7 +4822,7 @@
 		<rdfs:label>unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MRI-ESM2-0 
 	-->
@@ -4833,7 +4834,7 @@
 		<ds:release_year>2017</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>mdeushi@mri-jma.go.jp</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MRI-ESM2-0_aerosol_MASINGAR-mk2r4 
@@ -4845,7 +4846,7 @@
 		<rdfs:label>MASINGAR-mk2r4</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MRI-ESM2-0_atmos_MRI-AGCM3.5 
@@ -4857,7 +4858,7 @@
 		<rdfs:label>MRI-AGCM3.5</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MRI-ESM2-0_atmosChem_MRI-CCM2.1 
@@ -4869,7 +4870,7 @@
 		<rdfs:label>MRI-CCM2.1</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MRI-ESM2-0_land_HAL1.0 
@@ -4881,7 +4882,7 @@
 		<rdfs:label>HAL1.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MRI-ESM2-0_ocean_MRI.COM4.4 
@@ -4893,7 +4894,7 @@
 		<rdfs:label>MRI.COM4.4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MRI-ESM2-0_ocnBgchem_MRI.COM4.4 
@@ -4905,7 +4906,7 @@
 		<rdfs:label>MRI.COM4.4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#MRI-ESM2-0_seaIce_thermodynamic 
@@ -4917,7 +4918,7 @@
 		<rdfs:label>thermodynamic</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#NESM3 
 	-->
@@ -4929,7 +4930,7 @@
 		<ds:release_year>2016</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>esmc@nuist.edu.cn</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#NESM3_atmos_ECHAM6.3 
@@ -4941,7 +4942,7 @@
 		<rdfs:label>ECHAM6.3</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#NESM3_land_JSBACH3.1 
@@ -4953,7 +4954,7 @@
 		<rdfs:label>JSBACH3.1</rdfs:label>
 		<ds:hasNominalResolution>2.5 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#NESM3_ocean_NEMO3.4 
@@ -4965,7 +4966,7 @@
 		<rdfs:label>NEMO3.4</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#NESM3_seaIce_CICE4.1 
@@ -4977,7 +4978,7 @@
 		<rdfs:label>CICE4.1</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#NorESM2-LM 
 	-->
@@ -4989,7 +4990,7 @@
 		<ds:release_year>2017</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>noresm-ncc@met.no</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#NorESM2-LM_aerosol_OsloAero 
@@ -5001,7 +5002,7 @@
 		<rdfs:label>OsloAero</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#NorESM2-LM_atmos_CAM-OSLO 
@@ -5013,7 +5014,7 @@
 		<rdfs:label>CAM-OSLO</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#NorESM2-LM_atmosChem_OsloChemSimp 
@@ -5025,7 +5026,7 @@
 		<rdfs:label>OsloChemSimp</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#NorESM2-LM_land_CLM 
@@ -5037,7 +5038,7 @@
 		<rdfs:label>CLM</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#NorESM2-LM_landIce_CISM 
@@ -5049,7 +5050,7 @@
 		<rdfs:label>CISM</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#NorESM2-LM_ocean_MICOM 
@@ -5061,7 +5062,7 @@
 		<rdfs:label>MICOM</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#NorESM2-LM_ocnBgchem_HAMOCC 
@@ -5073,7 +5074,7 @@
 		<rdfs:label>HAMOCC</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#NorESM2-LM_seaIce_CICE 
@@ -5085,7 +5086,7 @@
 		<rdfs:label>CICE</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#NorESM2-MM 
 	-->
@@ -5097,7 +5098,7 @@
 		<ds:release_year>2017</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>noresm-ncc@met.no</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#NorESM2-MM_aerosol_OsloAero 
@@ -5109,7 +5110,7 @@
 		<rdfs:label>OsloAero</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#NorESM2-MM_atmos_CAM-OSLO 
@@ -5121,7 +5122,7 @@
 		<rdfs:label>CAM-OSLO</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#NorESM2-MM_atmosChem_OsloChemSimp 
@@ -5133,7 +5134,7 @@
 		<rdfs:label>OsloChemSimp</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#NorESM2-MM_land_CLM 
@@ -5145,7 +5146,7 @@
 		<rdfs:label>CLM</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#NorESM2-MM_landIce_CISM 
@@ -5157,7 +5158,7 @@
 		<rdfs:label>CISM</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#NorESM2-MM_ocean_MICOM 
@@ -5169,7 +5170,7 @@
 		<rdfs:label>MICOM</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#NorESM2-MM_ocnBgchem_HAMOCC 
@@ -5181,7 +5182,7 @@
 		<rdfs:label>HAMOCC</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#NorESM2-MM_seaIce_CICE 
@@ -5193,7 +5194,7 @@
 		<rdfs:label>CICE</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#SAM0-UNICON 
 	-->
@@ -5205,7 +5206,7 @@
 		<ds:release_year>2017</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>sungsup@snu.ac.kr</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#SAM0-UNICON_aerosol_MAM3 
@@ -5217,7 +5218,7 @@
 		<rdfs:label>MAM3</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#SAM0-UNICON_atmos_CAM5.3 
@@ -5229,7 +5230,7 @@
 		<rdfs:label>CAM5.3</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#SAM0-UNICON_land_CLM4.0 
@@ -5241,7 +5242,7 @@
 		<rdfs:label>CLM4.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#SAM0-UNICON_ocean_POP2 
@@ -5253,7 +5254,7 @@
 		<rdfs:label>POP2</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#SAM0-UNICON_seaIce_CICE4.0 
@@ -5265,7 +5266,7 @@
 		<rdfs:label>CICE4.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#TaiESM1 
 	-->
@@ -5277,7 +5278,7 @@
 		<ds:release_year>2018</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>leelupin@gate.sinica.edu.tw</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#TaiESM1_aerosol_SNAP 
@@ -5289,7 +5290,7 @@
 		<rdfs:label>SNAP</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#TaiESM1_atmos_TaiAM1 
@@ -5301,7 +5302,7 @@
 		<rdfs:label>TaiAM1</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#TaiESM1_atmosChem_SNAP 
@@ -5313,7 +5314,7 @@
 		<rdfs:label>SNAP</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#TaiESM1_land_CLM4.0 
@@ -5325,7 +5326,7 @@
 		<rdfs:label>CLM4.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#TaiESM1_ocean_POP2 
@@ -5337,7 +5338,7 @@
 		<rdfs:label>POP2</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#TaiESM1_seaIce_CICE4 
@@ -5349,7 +5350,7 @@
 		<rdfs:label>CICE4</rdfs:label>
 		<ds:hasNominalResolution>50 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#UKESM1-0-LL 
 	-->
@@ -5361,7 +5362,7 @@
 		<ds:release_year>2018</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>cmip6.ukesm1@metoffice.gov.uk</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#UKESM1-0-LL_aerosol_UKCA-GLOMAP-mode 
@@ -5373,7 +5374,7 @@
 		<rdfs:label>UKCA-GLOMAP-mode</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#UKESM1-0-LL_atmos_MetUM-HadGEM3-GA7.1 
@@ -5385,7 +5386,7 @@
 		<rdfs:label>MetUM-HadGEM3-GA7.1</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#UKESM1-0-LL_atmosChem_UKCA-StratTrop 
@@ -5397,7 +5398,7 @@
 		<rdfs:label>UKCA-StratTrop</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#UKESM1-0-LL_land_JULES-ES-1.0 
@@ -5409,7 +5410,7 @@
 		<rdfs:label>JULES-ES-1.0</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#UKESM1-0-LL_ocean_NEMO-HadGEM3-GO6.0 
@@ -5421,7 +5422,7 @@
 		<rdfs:label>NEMO-HadGEM3-GO6.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#UKESM1-0-LL_ocnBgchem_MEDUSA2 
@@ -5433,7 +5434,7 @@
 		<rdfs:label>MEDUSA2</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#UKESM1-0-LL_seaIce_CICE-HadGEM3-GSI8 
@@ -5445,7 +5446,7 @@
 		<rdfs:label>CICE-HadGEM3-GSI8</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#UKESM1-1-LL 
 	-->
@@ -5457,7 +5458,7 @@
 		<ds:release_year>2021</ds:release_year>
 		<ds:license>Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)</ds:license>
 		<ds:exceptions_contact>cmip6.ukesm1@metoffice.gov.uk</ds:exceptions_contact>
-
+</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#UKESM1-1-LL_aerosol_UKCA-GLOMAP-mode 
@@ -5469,7 +5470,7 @@
 		<rdfs:label>UKCA-GLOMAP-mode</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#UKESM1-1-LL_atmos_MetUM-HadGEM3-GA7.1 
@@ -5481,7 +5482,7 @@
 		<rdfs:label>MetUM-HadGEM3-GA7.1</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#UKESM1-1-LL_atmosChem_UKCA-StratTrop 
@@ -5493,7 +5494,7 @@
 		<rdfs:label>UKCA-StratTrop</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#UKESM1-1-LL_land_JULES-ES-1.0 
@@ -5505,7 +5506,7 @@
 		<rdfs:label>JULES-ES-1.0</rdfs:label>
 		<ds:hasNominalResolution>250 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#UKESM1-1-LL_ocean_NEMO-HadGEM3-GO6.0 
@@ -5517,7 +5518,7 @@
 		<rdfs:label>NEMO-HadGEM3-GO6.0</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#UKESM1-1-LL_ocnBgchem_MEDUSA2 
@@ -5529,7 +5530,7 @@
 		<rdfs:label>MEDUSA2</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
-
+	</owl:NamedIndividual>
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#UKESM1-1-LL_seaIce_CICE-HadGEM3-GSI8 
@@ -5541,5 +5542,7 @@
 		<rdfs:label>CICE-HadGEM3-GSI8</rdfs:label>
 		<ds:hasNominalResolution>100 km</ds:hasNominalResolution>
 		<rdfs:comment xml:lang="en">Nominal resolution corresponds to the native model's resolution</rdfs:comment>
+	</owl:NamedIndividual>
+</rdf:RDF>
 
-<!-- Generated by 0_import_CMIP6_models.R on 2024-07-15 using R version 4.4.1 (2024-06-14) <https://github.com/METACLIP/CMIP6> -->
+<!-- Generated by 0_import_CMIP6_models.R on 2024-07-16 using R version 4.4.1 (2024-06-14) <https://github.com/METACLIP/CMIP6> -->
