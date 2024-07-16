@@ -122,7 +122,7 @@ for (i in 1:length(scenMIP.models)) {
     cat("\t\t<ds:exceptions_contact>", gcm.bugreports,
         "</ds:exceptions_contact>", sep = "", file = con, append = TRUE)
     cat("\n", file = con, append = TRUE)
-    cat("</owl:NamedIndividual>", file = con, append = TRUE)
+    cat("\t</owl:NamedIndividual>", file = con, append = TRUE)
     cat("\n", file = con, append = TRUE)
     
     ## @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
