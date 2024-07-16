@@ -9,6 +9,7 @@
 
 restart.owl <- function(voc = "models") {
     voc <- match.arg(voc, choices = c("models", "institutions"))
+    
     owl.file <- switch(voc,
                        "models" = "ScenarioMIP-models.owl",
                        "institutions" = "CMIP6-institutions.owl")
@@ -17,10 +18,22 @@ restart.owl <- function(voc = "models") {
                    "in main working dir by a blank template... are you sure?"))
     if (choice == 1) {
         system(paste("cp -f aux/owl_template/template.owl", owl.file))
+        
+        Sys.setenv(TZ = "GMT")
+        chartime <- Sys.time() %>% as.character()
+        date <- paste0(substr(chartime, 1 , 10), "T",
+                       substr(chartime, 12, 19), "Z")
+        
+        l <- readLines(owl.file)
+        l <- gsub("XXX", date, l)
+        writeLines(l, owl.file)
+        
         if (voc == "institutions") {
             lines <- readLines("CMIP6-institutions.owl")
             lines <- gsub("ScenarioMIP-models.owl",
                           "CMIP6-institutions.owl", lines)
+            lines <- gsub("ScenarioMIP model entities", "institutions", lines)
+            lines <- gsub("ScenarioMIP models", "institutions", lines)
             writeLines(lines, owl.file)
         }
         message(owl.file, " was reset")
