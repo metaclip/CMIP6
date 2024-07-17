@@ -1,18 +1,23 @@
+library(jsonlite)
+library(magrittr)
+
+
 #' @title Reset OWL template
 #' @description Overwrite the template.owl file in the main working directory by the blank template
 #' @param voc Character string. Which vocabulary is reset?. Currently available
-#'  choices are \code{"models"} (the default) and \code{"institutions"}.
+#'  choices are \code{"models"} (the default), \code{"institutions"} and \code{"variables"}.
 #' @note
 #' For safety, the function will ask for confirmation 
 #' @author juaco
 #' @keywords internal
 
 restart.owl <- function(voc = "models") {
-    voc <- match.arg(voc, choices = c("models", "institutions"))
+    voc <- match.arg(voc, choices = c("models", "institutions", "variables"))
     
     owl.file <- switch(voc,
                        "models" = "ScenarioMIP-models.owl",
-                       "institutions" = "CMIP6-institutions.owl")
+                       "institutions" = "CMIP6-institutions.owl",
+                       "variables" = "CMIP6-variables.owl")
     choice <- menu(choices = c("yes", "no"),
                    title = paste("This will reset", owl.file, 
                    "in main working dir by a blank template... are you sure?"))
@@ -34,6 +39,15 @@ restart.owl <- function(voc = "models") {
                           "CMIP6-institutions.owl", lines)
             lines <- gsub("ScenarioMIP model entities", "institutions", lines)
             lines <- gsub("ScenarioMIP models", "institutions", lines)
+            writeLines(lines, owl.file)
+        } else if (voc == "variables") {
+            lines <- readLines("CMIP6-variables.owl")
+            lines <- gsub("ScenarioMIP-models.owl",
+                          "CMIP6-variables.owl", lines)
+            lines <- gsub("ScenarioMIP model entities", "variables", lines)
+            lines <- gsub("ScenarioMIP models", "variables", lines)
+            lines <- gsub("https://wcrp-cmip.github.io/CMIP6_CVs",
+                          "https://github.com/PCMDI/cmip6-cmor-tables/tree/main", lines)
             writeLines(lines, owl.file)
         }
         message(owl.file, " was reset")

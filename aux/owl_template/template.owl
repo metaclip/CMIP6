@@ -20,6 +20,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">XXX</dc:date>
         <dc:description xml:lang="en">Characterization of Individual Components in CMIP6 ScenarioMIP models using the METACLIP Framework Classes</dc:description>
         <dc:title xml:lang="en">METACLIP bindings for CMIP6 ScenarioMIP model entities</dc:title>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcrp-cmip.github.io/CMIP6_CVs</dc:source>
         <terms:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://orcid.org/0000-0001-6219-4312</terms:contributor>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.metaclip.org</rdfs:seeAlso>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.1016/j.envsoft.2019.07.005</rdfs:seeAlso>
