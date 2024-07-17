@@ -17,7 +17,7 @@ restart.owl <- function(voc = "models") {
     owl.file <- switch(voc,
                        "models" = "ScenarioMIP-models.owl",
                        "institutions" = "CMIP6-institutions.owl",
-                       "variables" = "CMIP6-variables.owl")
+                       "variables" = "CMIP6-C3S-sl-variables.owl")
     choice <- menu(choices = c("yes", "no"),
                    title = paste("This will reset", owl.file, 
                    "in main working dir by a blank template... are you sure?"))
@@ -34,18 +34,16 @@ restart.owl <- function(voc = "models") {
         writeLines(l, owl.file)
         
         if (voc == "institutions") {
-            lines <- readLines("CMIP6-institutions.owl")
-            lines <- gsub("ScenarioMIP-models.owl",
-                          "CMIP6-institutions.owl", lines)
+            lines <- readLines(owl.file)
+            lines <- gsub("ScenarioMIP-models.owl", owl.file, lines)
             lines <- gsub("ScenarioMIP model entities", "institutions", lines)
             lines <- gsub("ScenarioMIP models", "institutions", lines)
             writeLines(lines, owl.file)
         } else if (voc == "variables") {
-            lines <- readLines("CMIP6-variables.owl")
-            lines <- gsub("ScenarioMIP-models.owl",
-                          "CMIP6-variables.owl", lines)
-            lines <- gsub("ScenarioMIP model entities", "variables", lines)
-            lines <- gsub("ScenarioMIP models", "variables", lines)
+            lines <- readLines(owl.file)
+            lines <- gsub("ScenarioMIP-models.owl", owl.file, lines)
+            lines <- gsub("ScenarioMIP model entities", "C3S single-level variables", lines)
+            lines <- gsub("ScenarioMIP models", "C3S single-level variables", lines)
             lines <- gsub("https://wcrp-cmip.github.io/CMIP6_CVs",
                           "https://github.com/PCMDI/cmip6-cmor-tables/tree/main", lines)
             writeLines(lines, owl.file)
@@ -605,6 +603,34 @@ setModelComponentClass <- function(model.comp) {
             "ocean" = "OceanModel",
             "ocnBgchem" = "OceanBgchemModel",
             "seaIce" = "SeaIceModel"
+    )
+}
+
+
+
+
+#' @title CMIP6 CMOR tables URL retrieval
+#' @description
+#' Retrieve the URL of CMIP6 CMOR tables given their short name identifier 
+#' @param cmip6.table  character string with table designation. 
+#' Currently accepted values are: \code{"day","fx","Ofx","Emon","LImon","Amon","Omon","SImon"}
+#' @return A valid url to read the table from
+#' @details
+#' The URLs correspond to the main branch of the PCDMI Github repo
+#' @source \url{https://github.com/PCMDI/cmip6-cmor-tables/}
+#' @author juaco
+#' @keywords internal
+
+set.CMORtable.url <- function (cmip6.table) {
+    switch(cmip6.table,
+           "day" = "https://raw.githubusercontent.com/PCMDI/cmip6-cmor-tables/main/Tables/CMIP6_day.json",
+           "fx" = "https://raw.githubusercontent.com/PCMDI/cmip6-cmor-tables/main/Tables/CMIP6_fx.json",
+           "Ofx" = "https://raw.githubusercontent.com/PCMDI/cmip6-cmor-tables/main/Tables/CMIP6_Ofx.json",
+           "Emon" = "https://raw.githubusercontent.com/PCMDI/cmip6-cmor-tables/main/Tables/CMIP6_Emon.json",
+           "LImon" = "https://raw.githubusercontent.com/PCMDI/cmip6-cmor-tables/main/Tables/CMIP6_LImon.json", 
+           "Amon" = "https://raw.githubusercontent.com/PCMDI/cmip6-cmor-tables/main/Tables/CMIP6_Amon.json",
+           "Omon" = "https://raw.githubusercontent.com/PCMDI/cmip6-cmor-tables/main/Tables/CMIP6_Omon.json",
+           "SImon" = "https://raw.githubusercontent.com/PCMDI/cmip6-cmor-tables/main/Tables/CMIP6_SImon.json"
     )
 }
 
