@@ -43,14 +43,14 @@ cmip6.tables <- ref$CMIP6_table %>% unique()
 ## The template already contains the OWL header with relevant imports and metadata
 ## Please check the 'datasource' ontology version dependency
 
-owl.file <- "CMIP6-C3S-sl-variables.owl"
+owl.file <- "CMIP6-variables.owl"
 restart.owl(voc = "variables")
 
 # Open file in add mode
 con <- file(owl.file, open = "a")
 
 ## VOC URI
-voc <- "https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl"
+voc <- "https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-variables.owl"
 
 
 
