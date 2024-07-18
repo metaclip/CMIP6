@@ -95,7 +95,7 @@ for (i in 1:length(cmip6.tables)) {
         cat("\t<owl:NamedIndividual rdf:about=\"", instance, "\">",
             sep = "", file = con, append = TRUE)
         cat("\n", file = con, append = TRUE)
-        cat("\t\t<rdf:type rdf:resource=\"http://www.metaclip.org/datasource/datasource.owl#Variable\"/>\n",
+        cat("\t\t<rdf:type rdf:resource=\"http://www.metaclip.org/datasource/datasource.owl#Variable\"/>",
             file = con, append = TRUE)
         cat("\n", file = con, append = TRUE)
         
@@ -105,6 +105,12 @@ for (i in 1:length(cmip6.tables)) {
         ## Var label
         cat("\t\t<rdfs:label>", inst, "</rdfs:label>", sep = "",
             file = con, append = TRUE)
+        cat("\n", file = con, append = TRUE)
+        
+        ## Comment
+        comment <- fix.XML.char(var.attrs$comment) 
+        cat("\t\t<rdfs:comment xml:lang=\"en\">", comment, "</rdfs:comment>",
+            sep = "", file = con, append = TRUE)
         cat("\n", file = con, append = TRUE)
         
         ## Standard name
@@ -125,11 +131,6 @@ for (i in 1:length(cmip6.tables)) {
         ## Cell methods
         cat("\t\t<ds:hasCellMethods rdf:datatype=\"http://www.w3.org/2001/XMLSchema#string\">",
             var.attrs$cell_methods, "</ds:hasCellMethods>", sep = "", file = con, append = TRUE)
-        cat("\n", file = con, append = TRUE)
-        
-        ## Comment
-        cat("\t\t<rdfs:comment xml:lang=\"en\">", var.attrs$comment, "</rdfs:comment>",
-            sep = "", file = con, append = TRUE)
         cat("\n", file = con, append = TRUE)
         
         ## Cell measures

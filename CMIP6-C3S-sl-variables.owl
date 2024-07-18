@@ -17,7 +17,7 @@
         <owl:imports rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
         <owl:imports rdf:resource="http://www.w3.org/ns/prov-o-20130430"/>
         <dc:creator xml:lang="en">Santander Meteorology Group</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-17T22:56:03Z</dc:date>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-18T08:12:19Z</dc:date>
         <dc:description xml:lang="en">Characterization of Individual Components in CMIP6 C3S single-level variables using the METACLIP Framework Classes</dc:description>
         <dc:title xml:lang="en">METACLIP bindings for CMIP6 C3S single-level variables</dc:title>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/PCMDI/cmip6-cmor-tables/tree/main</dc:source>
@@ -42,13 +42,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_day-huss">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_day-huss</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specific_humidity</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Near-Surface Specific Humidity</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Near-surface (usually, 2 meter) specific humidity.</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -59,13 +58,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_day-pr">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_day-pr</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">precipitation_flux</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Precipitation</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kg m-2 s-1</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">includes both liquid and solid phases</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -76,13 +74,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_day-psl">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_day-psl</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">air_pressure_at_mean_sea_level</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea Level Pressure</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pa</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Sea Level Pressure</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -93,13 +90,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_day-sfcWind">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_day-sfcWind</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wind_speed</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daily-Mean Near-Surface Wind Speed</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m s-1</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">near-surface (usually, 10 meters) wind speed.</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -110,13 +106,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_day-tas">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_day-tas</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">air_temperature</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Near-Surface Air Temperature</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">near-surface (usually, 2 meter) air temperature</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -127,13 +122,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_day-tasmin">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_day-tasmin</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">air_temperature</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daily Minimum Near-Surface Air Temperature</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: mean time: minimum</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">minimum near-surface (usually, 2 meter) air temperature (add cell_method attribute 'time: min')</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -144,13 +138,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_day-tasmax">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_day-tasmax</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">air_temperature</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daily Maximum Near-Surface Air Temperature</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: mean time: maximum</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">maximum near-surface (usually, 2 meter) air temperature (add cell_method attribute 'time: max')</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -161,13 +154,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_fx-sftlf">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_fx-sftlf</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">land_area_fraction</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Percentage of the Grid Cell Occupied by Land (Including Lakes)</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Percentage of horizontal area occupied by land.</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -178,13 +170,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_fx-orog">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_fx-orog</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface_altitude</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surface Altitude</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">The surface called 'surface' means the lower boundary of the atmosphere. Altitude is the (geometric) height above the geoid, which is the reference geopotential surface. The geoid is similar to mean sea level.</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">land</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -195,13 +186,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_fx-sftgif">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_fx-sftgif</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">land_ice_area_fraction</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Land Ice Area Percentage</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Percentage of grid cell covered by land ice (ice sheet, ice shelf, ice cap, glacier)</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">land</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -212,13 +202,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_fx-areacella">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_fx-areacella</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell_area</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grid-Cell Area for Atmospheric Grid Variables</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m2</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: sum</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">For atmospheres with more than 1 mesh (e.g., staggered grids), report areas that apply to surface vertical fluxes of energy.</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos land</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -229,13 +218,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_fx-mrsofc">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_fx-mrsofc</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soil_moisture_content_at_field_capacity</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Capacity of Soil to Store Water (Field Capacity)</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kg m-2</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: mean where land</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">The bulk water content retained by the soil at -33 J/kg of suction pressure, expressed as mass per unit land area; report as missing where there is no land</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">land</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -246,13 +234,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Ofx-sftof">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Ofx-sftof</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_area_fraction</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea Area Percentage</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Percentage of horizontal area occupied by ocean.</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacello</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ocean</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -263,13 +250,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Ofx-areacello">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Ofx-areacello</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell_area</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grid-Cell Area for Ocean Variables</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m2</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: sum</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Horizontal area of ocean grid cells</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ocean</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -280,13 +266,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Ofx-deptho">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Ofx-deptho</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_floor_depth_below_geoid</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea Floor Depth Below Geoid</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: mean where sea</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Ocean bathymetry.   Reported here is the sea floor depth for present day relative to z=0 geoid. Reported as missing for land grid cells.</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacello</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ocean</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -297,13 +282,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Emon-mrsosLut">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Emon-mrsosLut</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass_content_of_water_in_soil_layer</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moisture in Upper Portion of Soil Column of Land-Use Tile</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kg m-2</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean where sector</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">the mass of water in all phases in a thin surface layer; integrate over uppermost 10cm</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">land</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -314,13 +298,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Emon-mrroLut">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Emon-mrroLut</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">runoff_flux</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Total Runoff from Land-Use Tile</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kg m-2 s-1</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean where sector</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">the total runoff (including 'drainage' through the base of the soil model) leaving the land use tile portion of the grid cell</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">land</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -331,13 +314,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_LImon-snd">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_LImon-snd</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface_snow_thickness</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Snow Depth</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: mean where land time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">where land over land, this is computed as the mean thickness of snow in the land portion of the grid cell (averaging over the entire land portion, including the snow-free fraction).  Reported as 0.0 where the land fraction is 0.</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">landIce land</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -348,13 +330,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_LImon-snw">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_LImon-snw</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface_snow_amount</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surface Snow Amount</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kg m-2</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: mean where land time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">The mass of surface snow on the land portion of the grid cell divided by the land area in the grid cell; reported as missing where the land fraction is 0; excludes snow on vegetation canopy or on sea ice.</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">landIce land</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -365,13 +346,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-clt">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-clt</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cloud_area_fraction</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Total Cloud Cover Percentage</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Total cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen from the surface or the top of the atmosphere. Includes both large-scale and convective cloud.</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -382,13 +362,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-evspsbl">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-evspsbl</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water_evapotranspiration_flux</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evaporation Including Sublimation and Transpiration</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kg m-2 s-1</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Evaporation at surface (also known as evapotranspiration): flux of water into the atmosphere due to conversion of both liquid and solid phases to vapor (from underlying surface and vegetation)</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -399,13 +378,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-hfls">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-hfls</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface_upward_latent_heat_flux</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surface Upward Latent Heat Flux</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">W m-2</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">The surface called 'surface' means the lower boundary of the atmosphere. 'Upward' indicates a vector component which is positive when directed upward (negative downward). The surface latent heat flux is the exchange of heat between the surface and the air on account of evaporation (including sublimation). In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -416,13 +394,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-hfss">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-hfss</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface_upward_sensible_heat_flux</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surface Upward Sensible Heat Flux</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">W m-2</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">The surface sensible heat flux, also called turbulent heat flux, is the exchange of heat between the surface and the air by motion of air.</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -433,13 +410,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-huss">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-huss</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specific_humidity</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Near-Surface Specific Humidity</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Near-surface (usually, 2 meter) specific humidity.</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -450,13 +426,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-pr">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-pr</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">precipitation_flux</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Precipitation</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kg m-2 s-1</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">includes both liquid and solid phases</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -467,13 +442,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-ps">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-ps</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface_air_pressure</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surface Air Pressure</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pa</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">surface pressure (not mean sea-level pressure), 2-D field to calculate the 3-D pressure field from hybrid coordinates</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -484,13 +458,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-psl">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-psl</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">air_pressure_at_mean_sea_level</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea Level Pressure</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pa</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Sea Level Pressure</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -501,13 +474,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rlds">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-rlds</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface_downwelling_longwave_flux_in_air</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surface Downwelling Longwave Radiation</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">W m-2</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">The surface called 'surface' means the lower boundary of the atmosphere. 'longwave' means longwave radiation. Downwelling radiation is radiation from above. It does not mean 'net downward'. When thought of as being incident on a surface, a radiative flux is sometimes called 'irradiance'. In addition, it is identical with the quantity measured by a cosine-collector light-meter and sometimes called 'vector irradiance'. In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -518,13 +490,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rlus">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-rlus</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface_upwelling_longwave_flux_in_air</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surface Upwelling Longwave Radiation</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">W m-2</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">The surface called 'surface' means the lower boundary of the atmosphere. 'longwave' means longwave radiation. Upwelling radiation is radiation from below. It does not mean 'net upward'. When thought of as being incident on a surface, a radiative flux is sometimes called 'irradiance'. In addition, it is identical with the quantity measured by a cosine-collector light-meter and sometimes called 'vector irradiance'. In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -535,13 +506,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rlut">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-rlut</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">toa_outgoing_longwave_flux</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOA Outgoing Longwave Radiation</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">W m-2</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">at the top of the atmosphere (to be compared with satellite measurements)</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -552,13 +522,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rsds">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-rsds</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface_downwelling_shortwave_flux_in_air</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surface Downwelling Shortwave Radiation</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">W m-2</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Surface solar irradiance for UV calculations.</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -569,13 +538,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rsdt">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-rsdt</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">toa_incoming_shortwave_flux</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOA Incident Shortwave Radiation</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">W m-2</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Shortwave radiation incident at the top of the atmosphere</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -586,13 +554,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rsus">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-rsus</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface_upwelling_shortwave_flux_in_air</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surface Upwelling Shortwave Radiation</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">W m-2</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">The surface called 'surface' means the lower boundary of the atmosphere. 'shortwave' means shortwave radiation. Upwelling radiation is radiation from below. It does not mean 'net upward'. When thought of as being incident on a surface, a radiative flux is sometimes called 'irradiance'. In addition, it is identical with the quantity measured by a cosine-collector light-meter and sometimes called 'vector irradiance'. In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -603,13 +570,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rsut">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-rsut</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">toa_outgoing_shortwave_flux</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOA Outgoing Shortwave Radiation</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">W m-2</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">at the top of the atmosphere</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -620,13 +586,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-sfcWind">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-sfcWind</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wind_speed</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Near-Surface Wind Speed</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m s-1</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">near-surface (usually, 10 meters) wind speed.</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -637,13 +602,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tas">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-tas</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">air_temperature</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Near-Surface Air Temperature</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">near-surface (usually, 2 meter) air temperature</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -654,13 +618,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tauu">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-tauu</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface_downward_eastward_stress</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surface Downward Eastward Wind Stress</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pa</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Downward eastward wind stress at the surface</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -671,13 +634,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tauv">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-tauv</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface_downward_northward_stress</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surface Downward Northward Wind Stress</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pa</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Downward northward wind stress at the surface</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -688,13 +650,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-ts">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-ts</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface_temperature</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surface Temperature</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Temperature of the lower boundary of the atmosphere</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -705,13 +666,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-prsn">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-prsn</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snowfall_flux</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Snowfall Flux</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kg m-2 s-1</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">At surface; includes precipitation of all forms of water in the solid phase</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -722,13 +682,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tasmax">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-tasmax</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">air_temperature</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daily Maximum Near-Surface Air Temperature</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: mean time: maximum within days time: mean over days</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">maximum near-surface (usually, 2 meter) air temperature (add cell_method attribute 'time: max')</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -739,13 +698,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tasmin">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-tasmin</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">air_temperature</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daily Minimum Near-Surface Air Temperature</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: mean time: minimum within days time: mean over days</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">minimum near-surface (usually, 2 meter) air temperature (add cell_method attribute 'time: min')</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -756,13 +714,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-vas">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-vas</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">northward_wind</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Northward Near-Surface Wind</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m s-1</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Northward component of the near surface wind</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -773,13 +730,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-uas">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-uas</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eastward_wind</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eastward Near-Surface Wind</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m s-1</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Eastward component of the near-surface (usually, 10 meters)  wind</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -790,13 +746,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-hurs">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Amon-hurs</rdfs:label>
+		<rdfs:comment xml:lang="en">The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T&lt;0 C.</rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relative_humidity</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Near-Surface Relative Humidity</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacella</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmos</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -807,13 +762,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Omon-tos">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Omon-tos</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_surface_temperature</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea Surface Temperature</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degC</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: mean where sea time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Temperature of upper boundary of the liquid ocean, including temperatures below sea-ice and floating ice shelves.</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacello</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ocean</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -824,13 +778,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Omon-zos">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Omon-zos</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_surface_height_above_geoid</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea Surface Height Above Geoid</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: mean where sea time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">This is the dynamic sea level, so should have zero global area mean. It should not include inverse barometer depressions from sea ice.</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacello</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ocean</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -841,13 +794,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Omon-sos">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_Omon-sos</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_surface_salinity</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea Surface Salinity</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.001</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: mean where sea time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Sea water salinity is the salt content of sea water, often on the Practical Salinity Scale of 1978. However, the unqualified term 'salinity' is generic and does not necessarily imply any particular method of calculation. The units of salinity are dimensionless and the units attribute should normally be given as 1e-3 or 0.001 i.e. parts per thousand. </rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacello</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ocean</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -858,13 +810,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_SImon-siconc">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_SImon-siconc</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_ice_area_fraction</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea-Ice Area Percentage (Ocean Grid)</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: mean where sea time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Percentage of grid cell covered by sea ice</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacello</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seaIce</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -875,13 +826,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_SImon-simass">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_SImon-simass</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_ice_amount</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea-Ice Mass per Area</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kg m-2</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: mean where sea time: mean</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Total mass of sea ice divided by grid-cell area</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacello</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seaIce</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -892,13 +842,12 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_SImon-sirdgthick">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_SImon-sirdgthick</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_ice_thickness</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ridged Ice Thickness</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean where sea_ice_ridges (comment: mask=sirdgconc)</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Sea Ice Ridge Height (representing mean height over the ridged area)</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacello</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seaIce</ds:modelling_realm>
 	</owl:NamedIndividual>
@@ -909,17 +858,16 @@
 
 	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_SImon-sitemptop">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
-
 		<rdfs:label>CMIP6_SImon-sitemptop</rdfs:label>
+		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<ds:standard_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_ice_surface_temperature</ds:standard_name>
 		<ds:hasLongName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surface Temperature of Sea Ice</ds:hasLongName>
 		<ds:withUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K</ds:withUnits>
 		<ds:hasCellMethods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: time: mean where sea_ice (comment: mask=siconc)</ds:hasCellMethods>
-		<rdfs:comment xml:lang="en">Report surface temperature of snow where snow covers the sea ice.</rdfs:comment>
 		<ds:cell_measures rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area: areacello</ds:cell_measures>
 		<ds:modelling_realm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seaIce</ds:modelling_realm>
 	</owl:NamedIndividual>
 
 </rdf:RDF>
 
-<!-- Automatically generated by '2_import_CMIP6_variables.R' on 2024-07-17 using R version 4.4.1  <https://github.com/METACLIP/CMIP6> -->
+<!-- Automatically generated by '2_import_CMIP6_variables.R' on 2024-07-18 using R version 4.4.1  <https://github.com/METACLIP/CMIP6> -->

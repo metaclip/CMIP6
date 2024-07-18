@@ -634,3 +634,23 @@ set.CMORtable.url <- function (cmip6.table) {
     )
 }
 
+
+
+#' @title Special symbol treatment
+#' @description
+#' Replaces special symbols in RDF (currently handles \dQuote{>} and \dQuote{<})
+#' replacing them by an adequate XML escape sequence in strings
+#' @param string String to check and fix if needed
+#' @return Character string with XML escaped sequences where needed
+#' @author juaco
+#' @keywords internal
+
+fix.XML.char <- function(string) {
+    if (grepl("<", string)) {
+        string <- gsub("<", "&lt;", string)    
+    }
+    if (grepl(">", string)) {
+        string <- gsub("<", "&gt;", string)    
+    }
+}
+
