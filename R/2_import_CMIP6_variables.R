@@ -50,7 +50,7 @@ restart.owl(voc = "variables")
 con <- file(owl.file, open = "a")
 
 ## VOC URI
-voc <- "https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl"
+voc <- "https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl"
 
 
 

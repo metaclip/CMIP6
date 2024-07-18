@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl#" 
-     xml:base="https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl" 
+<rdf:RDF xmlns="https://raw.githubusercontent.com/metaclip/CMIP6/main/ScenarioMIP-models.owl#" 
+     xml:base="https://raw.githubusercontent.com/metaclip/CMIP6/main/ScenarioMIP-models.owl" 
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:ds="http://www.metaclip.org/datasource/datasource.owl#" 
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -11,8 +11,8 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl">
-        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/metaclip/CMIP6/devel/ScenarioMIP-models.owl"/>
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/ScenarioMIP-models.owl">
+        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/metaclip/CMIP6/main/ScenarioMIP-models.owl"/>
         <owl:imports rdf:resource="http://www.metaclip.org/datasource/datasource.owl"/> 
         <owl:imports rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
         <owl:imports rdf:resource="http://www.w3.org/ns/prov-o-20130430"/>

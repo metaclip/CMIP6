@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#" 
-     xml:base="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl" 
+<rdf:RDF xmlns="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#" 
+     xml:base="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl" 
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:ds="http://www.metaclip.org/datasource/datasource.owl#" 
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -11,13 +11,13 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl">
-        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl"/>
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl">
+        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl"/>
         <owl:imports rdf:resource="http://www.metaclip.org/datasource/datasource.owl"/> 
         <owl:imports rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
         <owl:imports rdf:resource="http://www.w3.org/ns/prov-o-20130430"/>
         <dc:creator xml:lang="en">Santander Meteorology Group</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-18T08:12:19Z</dc:date>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-18T08:39:32Z</dc:date>
         <dc:description xml:lang="en">Characterization of Individual Components in CMIP6 C3S single-level variables using the METACLIP Framework Classes</dc:description>
         <dc:title xml:lang="en">METACLIP bindings for CMIP6 C3S single-level variables</dc:title>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/PCMDI/cmip6-cmor-tables/tree/main</dc:source>
@@ -37,10 +37,10 @@
 	-->
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_day-huss 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_day-huss 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_day-huss">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_day-huss">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_day-huss</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -53,10 +53,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_day-pr 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_day-pr 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_day-pr">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_day-pr">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_day-pr</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -69,10 +69,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_day-psl 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_day-psl 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_day-psl">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_day-psl">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_day-psl</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -85,10 +85,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_day-sfcWind 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_day-sfcWind 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_day-sfcWind">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_day-sfcWind">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_day-sfcWind</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -101,10 +101,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_day-tas 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_day-tas 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_day-tas">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_day-tas">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_day-tas</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -117,10 +117,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_day-tasmin 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_day-tasmin 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_day-tasmin">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_day-tasmin">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_day-tasmin</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -133,10 +133,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_day-tasmax 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_day-tasmax 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_day-tasmax">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_day-tasmax">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_day-tasmax</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -149,10 +149,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_fx-sftlf 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_fx-sftlf 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_fx-sftlf">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_fx-sftlf">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_fx-sftlf</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -165,10 +165,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_fx-orog 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_fx-orog 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_fx-orog">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_fx-orog">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_fx-orog</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -181,10 +181,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_fx-sftgif 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_fx-sftgif 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_fx-sftgif">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_fx-sftgif">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_fx-sftgif</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -197,10 +197,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_fx-areacella 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_fx-areacella 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_fx-areacella">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_fx-areacella">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_fx-areacella</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -213,10 +213,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_fx-mrsofc 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_fx-mrsofc 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_fx-mrsofc">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_fx-mrsofc">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_fx-mrsofc</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -229,10 +229,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Ofx-sftof 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Ofx-sftof 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Ofx-sftof">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Ofx-sftof">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Ofx-sftof</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -245,10 +245,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Ofx-areacello 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Ofx-areacello 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Ofx-areacello">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Ofx-areacello">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Ofx-areacello</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -261,10 +261,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Ofx-deptho 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Ofx-deptho 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Ofx-deptho">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Ofx-deptho">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Ofx-deptho</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -277,10 +277,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Emon-mrsosLut 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Emon-mrsosLut 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Emon-mrsosLut">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Emon-mrsosLut">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Emon-mrsosLut</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -293,10 +293,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Emon-mrroLut 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Emon-mrroLut 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Emon-mrroLut">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Emon-mrroLut">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Emon-mrroLut</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -309,10 +309,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_LImon-snd 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_LImon-snd 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_LImon-snd">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_LImon-snd">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_LImon-snd</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -325,10 +325,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_LImon-snw 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_LImon-snw 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_LImon-snw">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_LImon-snw">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_LImon-snw</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -341,10 +341,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-clt 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-clt 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-clt">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-clt">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-clt</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -357,10 +357,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-evspsbl 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-evspsbl 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-evspsbl">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-evspsbl">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-evspsbl</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -373,10 +373,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-hfls 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-hfls 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-hfls">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-hfls">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-hfls</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -389,10 +389,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-hfss 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-hfss 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-hfss">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-hfss">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-hfss</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -405,10 +405,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-huss 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-huss 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-huss">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-huss">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-huss</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -421,10 +421,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-pr 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-pr 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-pr">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-pr">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-pr</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -437,10 +437,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-ps 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-ps 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-ps">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-ps">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-ps</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -453,10 +453,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-psl 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-psl 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-psl">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-psl">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-psl</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -469,10 +469,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rlds 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rlds 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rlds">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rlds">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-rlds</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -485,10 +485,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rlus 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rlus 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rlus">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rlus">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-rlus</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -501,10 +501,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rlut 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rlut 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rlut">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rlut">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-rlut</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -517,10 +517,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rsds 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rsds 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rsds">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rsds">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-rsds</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -533,10 +533,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rsdt 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rsdt 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rsdt">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rsdt">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-rsdt</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -549,10 +549,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rsus 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rsus 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rsus">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rsus">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-rsus</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -565,10 +565,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rsut 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rsut 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rsut">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-rsut">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-rsut</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -581,10 +581,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-sfcWind 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-sfcWind 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-sfcWind">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-sfcWind">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-sfcWind</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -597,10 +597,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tas 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tas 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tas">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tas">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-tas</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -613,10 +613,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tauu 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tauu 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tauu">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tauu">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-tauu</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -629,10 +629,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tauv 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tauv 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tauv">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tauv">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-tauv</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -645,10 +645,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-ts 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-ts 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-ts">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-ts">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-ts</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -661,10 +661,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-prsn 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-prsn 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-prsn">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-prsn">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-prsn</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -677,10 +677,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tasmax 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tasmax 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tasmax">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tasmax">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-tasmax</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -693,10 +693,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tasmin 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tasmin 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tasmin">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-tasmin">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-tasmin</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -709,10 +709,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-vas 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-vas 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-vas">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-vas">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-vas</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -725,10 +725,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-uas 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-uas 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-uas">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-uas">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-uas</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -741,10 +741,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-hurs 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-hurs 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-hurs">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Amon-hurs">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Amon-hurs</rdfs:label>
 		<rdfs:comment xml:lang="en">The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T&lt;0 C.</rdfs:comment>
@@ -757,10 +757,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Omon-tos 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Omon-tos 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Omon-tos">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Omon-tos">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Omon-tos</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -773,10 +773,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Omon-zos 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Omon-zos 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Omon-zos">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Omon-zos">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Omon-zos</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -789,10 +789,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Omon-sos 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Omon-sos 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_Omon-sos">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_Omon-sos">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_Omon-sos</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -805,10 +805,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_SImon-siconc 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_SImon-siconc 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_SImon-siconc">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_SImon-siconc">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_SImon-siconc</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -821,10 +821,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_SImon-simass 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_SImon-simass 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_SImon-simass">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_SImon-simass">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_SImon-simass</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -837,10 +837,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_SImon-sirdgthick 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_SImon-sirdgthick 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_SImon-sirdgthick">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_SImon-sirdgthick">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_SImon-sirdgthick</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -853,10 +853,10 @@
 	</owl:NamedIndividual>
 
 	<!--
-		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_SImon-sitemptop 
+		 https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_SImon-sitemptop 
 	-->
 
-	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-C3S-sl-variables.owl#CMIP6_SImon-sitemptop">
+	<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-C3S-sl-variables.owl#CMIP6_SImon-sitemptop">
 		<rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Variable"/>
 		<rdfs:label>CMIP6_SImon-sitemptop</rdfs:label>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
