@@ -17,7 +17,7 @@ restart.owl <- function(voc = "models") {
     owl.file <- switch(voc,
                        "models" = "ScenarioMIP-models.owl",
                        "institutions" = "CMIP6-institutions.owl",
-                       "variables" = "CMIP6-C3S-sl-variables.owl")
+                       "variables" = "CMIP6-variables.owl")
     choice <- menu(choices = c("yes", "no"),
                    title = paste("This will reset", owl.file, 
                    "in main working dir by a blank template... are you sure?"))
