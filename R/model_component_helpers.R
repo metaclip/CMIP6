@@ -557,14 +557,19 @@ set.ocean.individual <- function(ocean.model.description) {
 #' @author juaco
 #' @keywords internal
 
-# ## ocnBgchem
-# sapply(1:length(scenMIP.models), function(i) {
+# ## CMIP6 Activities
+# url <- "https://raw.githubusercontent.com/WCRP-CMIP/CMIP6_CVs/main/CMIP6_source_id.json"
+# ## List of all models
+# model.list <- fromJSON(url) %>% extract2("source_id")
+# ## Modify grep pattern to match activity accordingly
+# ml <- sapply(model.list, "[[", "activity_participation")
+# ind <- sapply(ml, "grepl",
+#               pattern = "^CMIP$") %>% sapply(., "any") %>% which(isTRUE(.))
+# CMIP.models <- model.list[ind]
+# ## ocean biogeochem
+# sapply(1:length(CMIP.models), function(i) {
 #     scenMIP.models[[i]][["model_component"]][["ocnBgchem"]]$description
 # }) %>% unique()
-# cbind.data.frame(
-#     "desc" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["ocean"]]$description),
-#     "res" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["ocean"]]$native_nominal_resolution)
-# )
 
 set.ocnBgchem.individual <- function(ocnBgchem.model.description) {
     switch(ocnBgchem.model.description,
@@ -574,12 +579,12 @@ set.ocnBgchem.individual <- function(ocnBgchem.model.description) {
            "IAP OBGCM" = "IAP-OBGCM",
            "MARBL (same grid as ocean)" = "MARBL",
            "BFM5.2" = "BFM5.2",
-           "Pisces 2.s" = "PISCES",
+           "Pisces 2.s" = "PISCES2s",
            "Canadian Model of Ocean Carbon (CMOC); NPZD ecosystem with OMIP prescribed carbonate chemistry" = "CMOC",
            "Canadian Ocean Ecosystem (CanOE) with OMIP prescribed carbon chemistry" = "CanOE",
            "BEC (Biogeochemical Elemental Cycling model, NPZD-type with C/N/P/Fe/Si/O; same grid as ocean)" = "BEC",
-           "PISCES v2" = "PISCES",
-           "PISCES v2 (same grid as ocean)" = "PISCES",
+           "PISCES v2" = "PISCES2",
+           "PISCES v2 (same grid as ocean)" = "PISCES2",
            "GFDL-BLINGv2" = "GFDL-BLINGv2",
            "GFDL-COBALTv2" = "GFDL-COBALTv2",
            "NOBM (NASA Ocean Biogeochemistry Model; same grid as ocean)" = "NOBM",
@@ -590,7 +595,11 @@ set.ocnBgchem.individual <- function(ocnBgchem.model.description) {
            "HAMOCC6" = "HAMOCC",
            "MRI.COM4.4" = "MRI.COM4.4",
            "HAMOCC" = "HAMOCC",
-           "MEDUSA2" = "MEDUSA2"
+           "MEDUSA2" = "MEDUSA2",
+           "BEC (same grid as ocean)" = "BEC",
+           "NEMO-PISCES (same grid as ocean)" = "NEMO-PISCES",
+           "HAMOCC5.1 (same grid as ocean)" = "HAMOCC5.1",
+           "HAMOCC5.1" = "HAMOCC5.1"
     )
 }
 
