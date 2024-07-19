@@ -2,10 +2,14 @@
 "CISM2.1" = "CISM2.1",
 "specified ice sheets" = "specified-ice-sheets",
 "PISM v1.2 (5 km x 5 km for Greenland, 31 levels)" = "PISM1.2",
-"GFDL-LM4.0.1" = "GFDL-LM4",
-"GFDL-LM4.1" = "GFDL-LM4",
+"GFDL-LM4.0.1" = "GFDL-LM4.0.1",
+"GFDL-LM4.1" = "GFDL-LM4.1",
 "Fixed" = "Fixed",
 "NCAR-CLM4" = "NCAR-CLM4",
 "Specified location - invariant in time, has high albedo and latent heat capacity" = "Time-invariant",
 "none/prescribed" = "none_prescribed",
-"CISM" = "CISM"
+"CISM" = "CISM",
+"GFDL-LM4.0" = "GFDL-LM4.0"
+ 
+
+
