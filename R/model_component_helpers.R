@@ -263,13 +263,17 @@ set.atmos.individual <- function(atmos.model.description) {
 #' @author juaco
 #' @keywords internal
 
-# ## Atmos chem
-# sapply(1:length(scenMIP.models), function(i) {
-#     scenMIP.models[[i]][["model_component"]][["atmosChem"]]$description
-# }) %>% unique()
-
-# ## Atmos chem
-# sapply(1:length(scenMIP.models), function(i) {
+# ## CMIP6 Activities
+# url <- "https://raw.githubusercontent.com/WCRP-CMIP/CMIP6_CVs/main/CMIP6_source_id.json"
+# ## List of all models
+# model.list <- fromJSON(url) %>% extract2("source_id")
+# ## Modify grep pattern to match activity accordingly
+# ml <- sapply(model.list, "[[", "activity_participation")
+# ind <- sapply(ml, "grepl",
+#               pattern = "^CMIP$") %>% sapply(., "any") %>% which(isTRUE(.))
+# CMIP.models <- model.list[ind]
+# ## Atmos 
+# sapply(1:length(CMIP.models), function(i) {
 #     scenMIP.models[[i]][["model_component"]][["atmosChem"]]$description
 # }) %>% unique()
 
@@ -296,7 +300,11 @@ set.atmosChem.individual <- function(atmosChem.model.description) {
            "MRI-CCM2.1 (T42; 128 x 64 longitude/latitude; 80 levels; top level 0.01 hPa)" = "MRI-CCM2.1",
            "OsloChemSimp" = "OsloChemSimp",
            "SNAP (same grid as atmos)" = "SNAP",
-           "UKCA-StratTrop" = "UKCA-StratTrop"
+           "UKCA-StratTrop" = "UKCA-StratTrop",
+           "BCC-AGCM3-Chem" = "BCC-AGCM3-Chem",
+           "MAM3 (same grid as atmos)" = "MAM3 (same grid as atmos)",
+           "Troposphere specified oxidants (except passive ozone with the lower boundary sink) for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (atmos physics grid)" = "troposhere-specified-oxidants-for-aerosols_LINOZv2",
+           "OsloChemSimp4.1 (same grid as atmos)" = "OsloChemSimp4.1"
     )
 }
 
