@@ -33,7 +33,7 @@ scenMIP.models <- model.list[ind]
 ## Please check the 'datasource' ontology version dependency
 
 owl.file <- "CMIP6-models.owl"
-restart.owl()
+restart.owl(voc = "models", version = "0.0")
 # Open file in add mode
 
 con <- file(owl.file, open = "a")
@@ -61,6 +61,7 @@ model.components <- c("aerosol", "atmos", "atmosChem",
 #     file = con, append = TRUE)
 # cat("\t-->\n\n", file = con, append = TRUE)
 
+cat("\n\n\n", file = con, append = TRUE)
 
 for (i in 1:length(scenMIP.models)) {
     

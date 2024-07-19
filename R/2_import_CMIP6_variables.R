@@ -44,7 +44,7 @@ cmip6.tables <- ref$CMIP6_table %>% unique()
 ## Please check the 'datasource' ontology version dependency
 
 owl.file <- "CMIP6-variables.owl"
-restart.owl(voc = "variables")
+restart.owl(voc = "variables", version = "0.0")
 
 # Open file in add mode
 con <- file(owl.file, open = "a")
@@ -64,6 +64,7 @@ voc <- "https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-variables.ow
 #     file = con, append = TRUE)
 # cat("\t-->\n\n", file = con, append = TRUE)
 
+cat("\n\n\n", file = con, append = TRUE)
 
 for (i in 1:length(cmip6.tables)) {
     

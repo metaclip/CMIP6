@@ -17,8 +17,8 @@
         <owl:imports rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
         <owl:imports rdf:resource="http://www.w3.org/ns/prov-o-20130430"/>
         <dc:creator xml:lang="en">Santander Meteorology Group</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-19T18:30:24Z</dc:date>
-        <dc:description xml:lang="en">Characterization of Individual Components in CMIP6 models using the METACLIP Framework Classes</dc:description>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-19T19:14:52Z</dc:date>
+        <dc:description xml:lang="en">Semantic characterization of individual CMIP6 models participating in CMIP and ScenarioMIP activities using the METACLIP Framework Classes</dc:description>
         <dc:title xml:lang="en">METACLIP bindings for CMIP6 model entities</dc:title>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcrp-cmip.github.io/CMIP6_CVs</dc:source>
         <terms:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://orcid.org/0000-0001-6219-4312</terms:contributor>
@@ -27,14 +27,17 @@
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</owl:versionInfo>
     </owl:Ontology>
     
-  
-	<!--
-	///////////////////////////////////////////////////////////////////////////////////////
-	//
-	// Individuals
-	//
-	///////////////////////////////////////////////////////////////////////////////////////
-	-->
+    
+    
+	<!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
 
 	<!--
 		 https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-models.owl#ACCESS-CM2 
