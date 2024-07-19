@@ -30,15 +30,15 @@ con <- file(owl.file, open = "a")
 ## VOC URI
 voc <- "https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-institutions.owl"
 
-cat("\t<!--\n", file = con, append = TRUE) 
-cat("\t///////////////////////////////////////////////////////////////////////////////////////\n",
-    file = con, append = TRUE)
-cat("\t//\n", file = con, append = TRUE)
-cat("\t// Individuals\n", file = con, append = TRUE)
-cat("\t//\n", file = con, append = TRUE)
-cat("\t///////////////////////////////////////////////////////////////////////////////////////\n",
-    file = con, append = TRUE)
-cat("\t-->\n\n", file = con, append = TRUE)
+# cat("\t<!--\n", file = con, append = TRUE) 
+# cat("\t///////////////////////////////////////////////////////////////////////////////////////\n",
+#     file = con, append = TRUE)
+# cat("\t//\n", file = con, append = TRUE)
+# cat("\t// Individuals\n", file = con, append = TRUE)
+# cat("\t//\n", file = con, append = TRUE)
+# cat("\t///////////////////////////////////////////////////////////////////////////////////////\n",
+#     file = con, append = TRUE)
+# cat("\t-->\n\n", file = con, append = TRUE)
 
 for (i in 1:length(insts)) {
     

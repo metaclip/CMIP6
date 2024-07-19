@@ -51,15 +51,15 @@ model.components <- c("aerosol", "atmos", "atmosChem",
                       "land", "landIce", "ocean",
                       "ocnBgchem", "seaIce")
 
-cat("\t<!--\n", file = con, append = TRUE) 
-cat("\t///////////////////////////////////////////////////////////////////////////////////////\n",
-    file = con, append = TRUE)
-cat("\t//\n", file = con, append = TRUE)
-cat("\t// Individuals\n", file = con, append = TRUE)
-cat("\t//\n", file = con, append = TRUE)
-cat("\t///////////////////////////////////////////////////////////////////////////////////////\n",
-    file = con, append = TRUE)
-cat("\t-->\n\n", file = con, append = TRUE)
+# cat("\t<!--\n", file = con, append = TRUE) 
+# cat("\t///////////////////////////////////////////////////////////////////////////////////////\n",
+#     file = con, append = TRUE)
+# cat("\t//\n", file = con, append = TRUE)
+# cat("\t// Individuals\n", file = con, append = TRUE)
+# cat("\t//\n", file = con, append = TRUE)
+# cat("\t///////////////////////////////////////////////////////////////////////////////////////\n",
+#     file = con, append = TRUE)
+# cat("\t-->\n\n", file = con, append = TRUE)
 
 
 for (i in 1:length(scenMIP.models)) {
