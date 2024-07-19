@@ -11,7 +11,7 @@ library(magrittr)
 #' @author juaco
 #' @keywords internal
 
-restart.owl <- function(voc = "models") {
+restart.owl <- function(voc = "models", version = "0.0") {
     voc <- match.arg(voc, choices = c("models", "institutions", "variables"))
     
     owl.file <- switch(voc,
@@ -22,7 +22,7 @@ restart.owl <- function(voc = "models") {
                    title = paste("This will reset", owl.file, 
                    "in main working dir by a blank template... are you sure?"))
     if (choice == 1) {
-        system(paste("cp -f aux/owl_template/template.owl", owl.file))
+        system(paste0("cp -f aux/owl_templates/template_", voc, ".owl ", owl.file))
         
         Sys.setenv(TZ = "GMT")
         chartime <- Sys.time() %>% as.character()
@@ -31,23 +31,8 @@ restart.owl <- function(voc = "models") {
         
         l <- readLines(owl.file)
         l <- gsub("XXX", date, l)
+        l <- gsub("V.V", version, l)
         writeLines(l, owl.file)
-        
-        if (voc == "institutions") {
-            lines <- readLines(owl.file)
-            lines <- gsub("CMIP6-models.owl", owl.file, lines)
-            lines <- gsub("CMIP6 model entities", "CMIP6 institutions", lines)
-            lines <- gsub("CMIP6 models", "CMIP6 institutions", lines)
-            writeLines(lines, owl.file)
-        } else if (voc == "variables") {
-            lines <- readLines(owl.file)
-            lines <- gsub("CMIP6-models.owl", owl.file, lines)
-            lines <- gsub("CMIP6 model entities", "CMIP6 C3S single-level variables", lines)
-            lines <- gsub("CMIP6 models", "CMIP6 C3S single-level variables", lines)
-            lines <- gsub("https://wcrp-cmip.github.io/CMIP6_CVs",
-                          "https://github.com/PCMDI/cmip6-cmor-tables/tree/main", lines)
-            writeLines(lines, owl.file)
-        }
         message(owl.file, " was reset")
     } else {
         message("action declined, nothing was done")
