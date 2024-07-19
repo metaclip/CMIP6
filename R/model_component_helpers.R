@@ -272,7 +272,7 @@ set.atmos.individual <- function(atmos.model.description) {
 # ind <- sapply(ml, "grepl",
 #               pattern = "^CMIP$") %>% sapply(., "any") %>% which(isTRUE(.))
 # CMIP.models <- model.list[ind]
-# ## Atmos 
+# ## Atmos chem 
 # sapply(1:length(CMIP.models), function(i) {
 #     scenMIP.models[[i]][["model_component"]][["atmosChem"]]$description
 # }) %>% unique()
@@ -325,8 +325,17 @@ set.atmosChem.individual <- function(atmosChem.model.description) {
 #' @author juaco
 #' @keywords internal
 
-# ## Land
-# sapply(1:length(scenMIP.models), function(i) {
+# ## CMIP6 Activities
+# url <- "https://raw.githubusercontent.com/WCRP-CMIP/CMIP6_CVs/main/CMIP6_source_id.json"
+# ## List of all models
+# model.list <- fromJSON(url) %>% extract2("source_id")
+# ## Modify grep pattern to match activity accordingly
+# ml <- sapply(model.list, "[[", "activity_participation")
+# ind <- sapply(ml, "grepl",
+#               pattern = "^CMIP$") %>% sapply(., "any") %>% which(isTRUE(.))
+# CMIP.models <- model.list[ind]
+## Land
+# sapply(1:length(CMIP.models), function(i) {
 #     scenMIP.models[[i]][["model_component"]][["land"]]$description
 # }) %>% unique()
 
@@ -337,7 +346,7 @@ set.land.individual <- function(land.model.description) {
            "JSBACH 3.20" = "JSBACH3.20",
            "JSBACH 3.20 with dynamic vegetation" = "JSBACH3.20-dynamic-veg",
            "BCC_AVIM2" = "BCC_AVIM2",
-           "CoLM 1.0" = "CoLM",
+           "CoLM 1.0" = "CoLM1.0",
            "CoLM" = "CoLM",
            "CLM5 (same grid as atmos)" = "CLM5",
            "CIESM-LM (modified CLM4.5)" = "CIESM-LM",
@@ -354,14 +363,14 @@ set.land.individual <- function(land.model.description) {
            "CLM4.0" = "CLM4.0",
            "CAS-LSM" = "CAS-LSM",
            "CLM4.0 (same grid at atmos)" = "CLM4.0",
-           "GFDL-LM4.0.1 (1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 20 levels; bottom level 10m); land-Veg:unnamed (dynamic vegetation, dynamic land use); land-Hydro:unnamed (soil water and ice, multi-layer snow, rivers and lakes)" = "GFDL-LM4",
-           "GFDL-LM4.1" = "GFDL-LM4",
+           "GFDL-LM4.0.1 (1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 20 levels; bottom level 10m); land-Veg:unnamed (dynamic vegetation, dynamic land use); land-Hydro:unnamed (soil water and ice, multi-layer snow, rivers and lakes)" = "GFDL-LM4.0.1",
+           "GFDL-LM4.1" = "GFDL-LM4.1",
            "GISS LSM" = "GISS-LSM",
            "JULES-HadGEM3-GL7.1" = "JULES-HadGEM3-GL7.1",
            "NOAH LSMv2.7.1" = "NOAH-LSMv2.7.1",
            "INM-LND1" = "INM-LND1",
            "ORCHIDEE (IPSLCM5A2.1, Water/Carbon/Energy mode)" = "ORCHIDEE",
-           "ORCHIDEE (v2.0, Water/Carbon/Energy mode)" = "ORCHIDEE",
+           "ORCHIDEE (v2.0, Water/Carbon/Energy mode)" = "ORCHIDEE2.0",
            "NCAR-CLM4" = "NCAR-CLM4",
            "Standard Manabe bucket hydrology scheme (Manabe 1969, doi: 10.1175/1520-0493(1969)097&lt;0739:CATOC&gt;2.3.CO;2)" = "Manabe",
            "MATSIRO6.0+VISIT-e ver.1.0" = "MATSIRO6.0_VISIT-e",
@@ -371,7 +380,19 @@ set.land.individual <- function(land.model.description) {
            "JSBACH v3.1" = "JSBACH3.1",
            "CLM" = "CLM",
            "CLM4.0 (same grid as atmos)" = "CLM4.0",
-           "JULES-ES-1.0" = "JULES-ES-1.0"
+           "JULES-ES-1.0" = "JULES-ES-1.0",
+           "CLM4 (same grid as atmos)" = "CLM4",
+           "CLM4.5 (SP mode)" = "CLM4.5",
+           "ELM (v1.0, satellite phenology mode, atmos grid), MOSART (v1.0, 0.125 degree latitude/longitude)" = "ELM_MOSART",
+           "ELM (E3SMv2.1, atmos physics grid, satellite phenology mode), MOSART (E3SMv2.1, 0.5 deg lat/lon grid)" = "ELM_MOSART",
+           "GFDL-LM4.0" = "GFDL-LM4.0",
+           "JSBACH4.20" = "JSBACH4.20",
+           "ORCHIDEE (v2.2, Water/Carbon/Energy mode; same grid as atmos)" = "ORCHIDEE2.0",
+           "MATSIRO6" = "MATSIRO6",
+           "SIB0109" = "SIB0109",
+           "MATSIRO6 (w/o MOSAIC)" = "MATSIRO6-MOSAIC",
+           "CLM4" = "CLM4",
+           "Earth1.0" = "Earth1.0"
     )
 }
 
@@ -392,14 +413,19 @@ set.land.individual <- function(land.model.description) {
 #' @author juaco
 #' @keywords internal
 
-# ## LandIce
-# sapply(1:length(scenMIP.models), function(i) {
+# ## CMIP6 Activities
+# url <- "https://raw.githubusercontent.com/WCRP-CMIP/CMIP6_CVs/main/CMIP6_source_id.json"
+# ## List of all models
+# model.list <- fromJSON(url) %>% extract2("source_id")
+# ## Modify grep pattern to match activity accordingly
+# ml <- sapply(model.list, "[[", "activity_participation")
+# ind <- sapply(ml, "grepl",
+#               pattern = "^CMIP$") %>% sapply(., "any") %>% which(isTRUE(.))
+# CMIP.models <- model.list[ind]
+# landice
+# sapply(1:length(CMIP.models), function(i) {
 #     scenMIP.models[[i]][["model_component"]][["landIce"]]$description
 # }) %>% unique()
-# cbind.data.frame(
-#     "desc" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["landIce"]]$description),
-#     "res" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["landIce"]]$native_nominal_resolution)
-# )
 
 set.landice.individual <- function(landice.model.description) {
     switch(landice.model.description,
