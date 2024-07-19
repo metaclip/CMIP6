@@ -619,14 +619,19 @@ set.ocnBgchem.individual <- function(ocnBgchem.model.description) {
 #' @author juaco
 #' @keywords internal
 
-# ## seaIce
-# sapply(1:length(scenMIP.models), function(i) {
+# ## CMIP6 Activities
+# url <- "https://raw.githubusercontent.com/WCRP-CMIP/CMIP6_CVs/main/CMIP6_source_id.json"
+# ## List of all models
+# model.list <- fromJSON(url) %>% extract2("source_id")
+# ## Modify grep pattern to match activity accordingly
+# ml <- sapply(model.list, "[[", "activity_participation")
+# ind <- sapply(ml, "grepl",
+#               pattern = "^CMIP$") %>% sapply(., "any") %>% which(isTRUE(.))
+# CMIP.models <- model.list[ind]
+## Sea-ice
+# sapply(1:length(CMIP.models), function(i) {
 #     scenMIP.models[[i]][["model_component"]][["seaIce"]]$description
 # }) %>% unique()
-# cbind.data.frame(
-#     "desc" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["ocean"]]$description),
-#     "res" = sapply(1:length(scenMIP.models), function(i) scenMIP.models[[i]][["model_component"]][["ocean"]]$native_nominal_resolution)
-# )
 
 set.seaice.individual <- function(seaice.model.description) {
     switch(seaice.model.description,
@@ -641,8 +646,8 @@ set.seaice.individual <- function(seaice.model.description) {
            "CICE4.0" = "CICE4.0",
            "Gelato 6.1" = "Gelato6.1",
            "LIM2" = "LIM2",
-           "MPAS-Seaice (v6.0, same grid as ocean)" = "MPAS-Seaice",
-           "MPAS-Seaice (v6.0; same grid as ocean)" = "MPAS-Seaice",
+           "MPAS-Seaice (v6.0, same grid as ocean)" = "MPAS-Seaice6.0",
+           "MPAS-Seaice (v6.0; same grid as ocean)" = "MPAS-Seaice6.0",
            "MPAS-Seaice (E3SMv2.0, ocean grid; 5 ice categories; 7 ice, 5 snow layers)" = "MPAS-Seaice",
            "LIM3" = "LIM3",
            "LIM3 (same grid as ocean)" = "LIM3",
@@ -652,8 +657,8 @@ set.seaice.individual <- function(seaice.model.description) {
            "GISS SI" = "GISS-SI",
            "GISS SI (same grid as ocean)" = "GISS-SI",
            "GISS SI (same grid as atmos)" = "GISS-SI",
-           "CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude)" = "CICE-HadGEM3-GSI8",
-           "CICE-HadGEM3-GSI8 (eORCA025 tripolar primarily 0.25 deg; 1440 x 1205 longitude/latitude)" = "CICE-HadGEM3-GSI8",
+           "CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude)" = "CICE-HadGEM3-GSI8_eORCA1",
+           "CICE-HadGEM3-GSI8 (eORCA025 tripolar primarily 0.25 deg; 1440 x 1205 longitude/latitude)" = "CICE-HadGEM3-GSI8_eORCA025",
            "SISv1.0" = "SIS1.0",
            "INM-ICE1" = "INM-ICE1",
            "NEMO-LIM2" = "NEMO-LIM2",
@@ -662,10 +667,19 @@ set.seaice.individual <- function(seaice.model.description) {
            "GFDL-SIS" = "GFDL-SIS",
            "Thermodynamic ice model (free drift dynamics)" = "thermodynamic",
            "COCO4.9" = "COCO4.9",
-           "unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)",
-           "MRI.COM4.4" = "thermodynamic",
+           "unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)" = "unnamed-thermodynamic",
+           "MRI.COM4.4" = "MRI.COM4.4",
            "CICE4.1" = "CICE4.1",
-           "CICE" = "CICE"
+           "CICE" = "CICE",
+           "FESOM 2" = "FESOM 2",
+           "CICE4 (same grid as ocean)" = "CICE4",
+           "MPAS-Seaice (E3SMv2.0, ocean grid, variable resolution 30 to 60 km; 5 ice categories; 7 ice, 5 snow layers)" = "MPAS-Seaice_E3SMv2.0",
+           "MPAS-Seaice (E3SMv2.1, MPAS-Ocean grid; 5 ice categories, 7 ice layers, 5 snow layers)" = "MPAS-Seaice_E3SMv2.1",
+           "none" = "none",
+           "CICE-HadGEM3-GSI8 (eORCA12 tripolar primarily 1/12 deg; 4320 x 3604 longitude/latitude)" = "CICE-HadGEM3-GSI8_eORCA12",
+           "NEMO-LIM3 (same grid as ocean)" = "NEMO-LIM3",
+           "Fixed" = "Fixed",
+           "Declining1.0-warming (360 x 180 longitude/latitude)" = "Declining1.0-warming"
     )
 }
 
