@@ -15,7 +15,7 @@ restart.owl <- function(voc = "models") {
     voc <- match.arg(voc, choices = c("models", "institutions", "variables"))
     
     owl.file <- switch(voc,
-                       "models" = "ScenarioMIP-models.owl",
+                       "models" = "CMIP6-models.owl",
                        "institutions" = "CMIP6-institutions.owl",
                        "variables" = "CMIP6-variables.owl")
     choice <- menu(choices = c("yes", "no"),
@@ -35,15 +35,15 @@ restart.owl <- function(voc = "models") {
         
         if (voc == "institutions") {
             lines <- readLines(owl.file)
-            lines <- gsub("ScenarioMIP-models.owl", owl.file, lines)
-            lines <- gsub("ScenarioMIP model entities", "institutions", lines)
-            lines <- gsub("ScenarioMIP models", "institutions", lines)
+            lines <- gsub("CMIP6-models.owl", owl.file, lines)
+            lines <- gsub("CMIP6 model entities", "CMIP6 institutions", lines)
+            lines <- gsub("CMIP6 models", "CMIP6 institutions", lines)
             writeLines(lines, owl.file)
         } else if (voc == "variables") {
             lines <- readLines(owl.file)
-            lines <- gsub("ScenarioMIP-models.owl", owl.file, lines)
-            lines <- gsub("ScenarioMIP model entities", "C3S single-level variables", lines)
-            lines <- gsub("ScenarioMIP models", "C3S single-level variables", lines)
+            lines <- gsub("CMIP6-models.owl", owl.file, lines)
+            lines <- gsub("CMIP6 model entities", "CMIP6 C3S single-level variables", lines)
+            lines <- gsub("CMIP6 models", "CMIP6 C3S single-level variables", lines)
             lines <- gsub("https://wcrp-cmip.github.io/CMIP6_CVs",
                           "https://github.com/PCMDI/cmip6-cmor-tables/tree/main", lines)
             writeLines(lines, owl.file)
@@ -88,6 +88,20 @@ fix.contact.info <- function(gcm.bugreports) {
 #' @author juaco
 #' @keywords internal
 
+# ## CMIP6 Activities
+# url <- "https://raw.githubusercontent.com/WCRP-CMIP/CMIP6_CVs/main/CMIP6_source_id.json"
+# ## List of all models
+# model.list <- fromJSON(url) %>% extract2("source_id")
+# ## Modify grep pattern to match activity accordingly
+# ml <- sapply(model.list, "[[", "activity_participation")
+# ind <- sapply(ml, "grepl",
+#               pattern = "^CMIP$") %>% sapply(., "any") %>% which(isTRUE(.)) 
+# CMIP.models <- model.list[ind] 
+# ## Atmos chem
+# sapply(1:length(scenMIP.models), function(i) {
+#     scenMIP.models[[i]][["model_component"]][["aerosol"]]$description
+# }) %>% unique()
+
 set.aerosol.individual <- function(aerosol.model.description) {
     switch(aerosol.model.description,
            "UKCA-GLOMAP-mode" = "UKCA-GLOMAP-mode",
@@ -115,7 +129,13 @@ set.aerosol.individual <- function(aerosol.model.description) {
            "none, prescribed MACv2-SP" = "prescribed",
            "MASINGAR mk2r4 (TL95; 192 x 96 longitude/latitude; 80 levels; top level 0.01 hPa)" = "MASINGAR-mk2r4",
            "OsloAero" = "OsloAero",
-           "SNAP (same grid as atmos)" = "SNAP"
+           "SNAP (same grid as atmos)" = "SNAP",
+           "MAM3 (same grid as atmos)" = "MAM3",
+           "prescribed MACv2-SP" = "prescribed",
+           "MAM4 w/ new resuspension, marine organics, secondary organics, and dust (atmos grid)" = "MAM4",
+           "MAM4 w/ new resuspension, marine organics, secondary organics, and dust (atmos physics grid)" = "MAM4",
+           "OsloAero4.1 (same grid as atmos)" = "OsloAero4.1",
+           "Prescribed from MRI-ESM2.0" = "prescribed"
     )
 } 
 
@@ -135,6 +155,20 @@ set.aerosol.individual <- function(aerosol.model.description) {
 #'    to ambiguities when URIs are used in different contexts. 
 #' @author juaco
 #' @keywords internal
+
+# ## CMIP6 Activities
+# url <- "https://raw.githubusercontent.com/WCRP-CMIP/CMIP6_CVs/main/CMIP6_source_id.json"
+# ## List of all models
+# model.list <- fromJSON(url) %>% extract2("source_id")
+# ## Modify grep pattern to match activity accordingly
+# ml <- sapply(model.list, "[[", "activity_participation")
+# ind <- sapply(ml, "grepl",
+#               pattern = "^CMIP$") %>% sapply(., "any") %>% which(isTRUE(.))
+# CMIP.models <- model.list[ind]
+# ## Atmos 
+# sapply(1:length(scenMIP.models), function(i) {
+#     scenMIP.models[[i]][["model_component"]][["atmos"]]$description
+# }) %>% unique()
 
 set.atmos.individual <- function(atmos.model.description) {
     switch(atmos.model.description,
@@ -186,8 +220,32 @@ set.atmos.individual <- function(atmos.model.description) {
            "ECHAM v6.3 (T63; 192 x 96 longitude/latitude; 47 levels; top level 1 Pa)" = "ECHAM6.3",
            "CAM-OSLO (2 degree resolution; 144 x 96; 32 levels; top level 3 mb)" = "CAM-OSLO",
            "CAM-OSLO (1 degree resolution; 288 x 192; 32 levels; top level 3 mb)" = "CAM-OSLO",
-           "CAM5.3 with UNICON (1deg; 288 x 192 longitude/latitude; 30 levels; top level ~2 hPa)" = "CAM5.3",
-           "TaiAM1 (0.9x1.25 degree; 288 x 192 longitude/latitude; 30 levels; top level ~2 hPa)" = "TaiAM1"
+           "CAM5.3 with UNICON (1deg; 288 x 192 longitude/latitude; 30 levels; top level ~2 hPa)" = "CAM5.3-UNICON",
+           "TaiAM1 (0.9x1.25 degree; 288 x 192 longitude/latitude; 30 levels; top level ~2 hPa)" = "TaiAM1",
+           "BCC_AGCM3_HR (T266; 800 x 400 longitude/latitude; 56 levels; top level 0.1 hPa)" = "BCC_AGCM3_HR",
+           "BCC_AGCM3_LR (T42; 128 x 64 longitude/latitude; 26 levels; top level 2.19 hPa)" = "BCC_AGCM3_LR",
+           "IAP AGCM 5.0 (Finite difference dynamical core; 256 x 128 longitude/latitude; 35 levels; top level 2.2 hPa)" = "IAP-AGCM-5.0",
+           "CAM5.2 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 32 levels; top level 2.25 mb)" = "CAM5.2",
+           "WACCM6 (1.9x2.5 finite volume grid; 144 x 96 longitude/latitude; 70 levels; top level 4.5e-06 mb)" = "WACCM6",
+           "CAM4 (1deg; 288 x 192 longitude/latitude; 26 levels; top at ~2 hPa)" = "CAM4",
+           "CAM4 (1/4deg; 1152 x 768 longitude/latitude; 26 levels; top at ~2 hPa)" = "CAM4",
+           "EAM (v2.0, Dynamics: cubed sphere spectral-element grid, 130,088 columns; Physics: 2x2 finite volume cells within each spectral element, 57,816 columns. N. American (NA): 25 to 100 km; outside ~100 km. 72 vertical layers w/ top at 60 km)" = "EAM",
+           "EAM (E3SMv2.1, cubed sphere spectral-element; 5400 els., 30x30 per cube face. Dynamics: degree 3 (p=3) polynomials within each spectral els., 112 km ave. resolution. Physics: 2x2 finite volume cells within each spectral els., 1.5 degree (168 km) average grid spacing; 72 vertical layers w/ top at 60 km)" = "EAM",
+           "IFS cy36r4 (TL511, linearly reduced Gaussian grid equivalent to 1024 x 512 longitude/latitude; 91 levels; top level 0.01 hPa)" = "IFS",
+           "FAMIL2.2 (Cubed-sphere, c384; 1440 x 720 longitude/latitude; 32 levels; top level 2.16 hPa)" = "FAMIL2.2",
+           "GFDL-AM4.0 (Cubed-sphere (c96) - 1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 33 levels; top level 1 hPa)" = "GFDL-AM4.0",
+           "MetUM-HadGEM3-GA7.1 (N512; 1024 x 768 longitude/latitude; 85 levels; top level 85 km)" = "MetUM-HadGEM3-GA7.1",
+           "ICON-A (icosahedral/triangles; 160 km; 47 levels; top level 80 km)" = "ICON-A",
+           "INM-AM5-H (0.67x0.5; 540 x 360 longitude/latitude; 73 levels; top level sigma = 0.0002)" = "INM-AM5-H",
+           "LMDZ (NPv6; 256 x 256 longitude/latitude; 79 levels; top level 80000 m)" = "LMDZ",
+           "GFDL-AM2.0 (cubed sphere (C48); 192 x 96 longitude/latitude; 32 vertical levels; top level 2 hPa)" = "GFDL-AM2.0",
+           "MRI-AGCM3.2S (TL959; 1920 x 960 longitude/latitude; 64 levels; top level 0.01 hPa)" = "MRI-AGCM3.2S",
+           "NICAM.16 (56km icosahedral grid; 163,842 grid cells (=10*4^7+2); 38 levels; top level 40 km)" = "NICAM.16",
+           "NICAM.16 (28km icosahedral grid; 655,362 grid cells (=10*4^8+2); 38 levels; top level 40 km)" = "NICAM.16",
+           "NICAM.16 (14km icosahedral grid; 2,621,442 grid cells (=10*4^9+2); 38 levels; top level 40 km)" = "NICAM.16",
+           "CAM-OSLO4.1 (2 degree resolution; 144 x 96 longitude/latitude; 26 levels; top level ~2 hPa)" = "CAM-OSLO4.1",
+           "CAM4 (2 degree resolution; 144 x 96; 32 levels; top level 3 mb)" = "CAM4",
+           "Earth1.0-gettingHotter (360 x 180 longitude/latitude; 50 levels; top level 0.1 mb)" = "Earth1.0-gettingHotter"
     )
 }
 
@@ -204,6 +262,11 @@ set.atmos.individual <- function(atmos.model.description) {
 #'    to ambiguities when URIs are used in different contexts. 
 #' @author juaco
 #' @keywords internal
+
+# ## Atmos chem
+# sapply(1:length(scenMIP.models), function(i) {
+#     scenMIP.models[[i]][["model_component"]][["atmosChem"]]$description
+# }) %>% unique()
 
 # ## Atmos chem
 # sapply(1:length(scenMIP.models), function(i) {

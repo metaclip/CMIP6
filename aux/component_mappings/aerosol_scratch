@@ -23,4 +23,10 @@
 "none, prescribed MACv2-SP" = "prescribed",
 "MASINGAR mk2r4 (TL95; 192 x 96 longitude/latitude; 80 levels; top level 0.01 hPa)" = "MASINGAR-mk2r4",
 "OsloAero" = "OsloAero",
-"SNAP (same grid as atmos)" = "SNAP"
+"SNAP (same grid as atmos)" = "SNAP",
+"MAM3 (same grid as atmos)" = "MAM3",
+"prescribed MACv2-SP" = "prescribed",
+"MAM4 w/ new resuspension, marine organics, secondary organics, and dust (atmos grid)" = "MAM4",
+"MAM4 w/ new resuspension, marine organics, secondary organics, and dust (atmos physics grid)" = "MAM4",
+"OsloAero4.1 (same grid as atmos)" = "OsloAero4.1",
+"Prescribed from MRI-ESM2.0" = "prescribed"
