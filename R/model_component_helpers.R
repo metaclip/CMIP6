@@ -12,12 +12,13 @@ library(magrittr)
 #' @keywords internal
 
 restart.owl <- function(voc = "models", version = "0.0") {
-    voc <- match.arg(voc, choices = c("models", "institutions", "variables"))
+    voc <- match.arg(voc, choices = c("models", "institutions", "variables", "datasets"))
     
     owl.file <- switch(voc,
                        "models" = "CMIP6-models.owl",
                        "institutions" = "CMIP6-institutions.owl",
-                       "variables" = "CMIP6-variables.owl")
+                       "variables" = "CMIP6-variables.owl",
+                       "datasets" = "CMIP6-datasets.owl")
     choice <- menu(choices = c("yes", "no"),
                    title = paste("This will reset", owl.file, 
                    "in main working dir by a blank template... are you sure?"))
