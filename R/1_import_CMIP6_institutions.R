@@ -28,7 +28,7 @@ restart.owl(voc = "institutions", version = "0.0")
 con <- file(owl.file, open = "a")
 
 ## VOC URI
-voc <- "https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-institutions.owl"
+voc <- "https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-institutions.owl"
 
 # cat("\t<!--\n", file = con, append = TRUE) 
 # cat("\t///////////////////////////////////////////////////////////////////////////////////////\n",

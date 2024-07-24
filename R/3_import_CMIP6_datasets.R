@@ -26,7 +26,7 @@ restart.owl(voc = "datasets", version = "0.0")
 con <- file(owl.file, open = "a")
 
 ## VOC URI
-voc <- "https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-datasets.owl"
+voc <- "https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-datasets.owl"
 
 
 for (i in 1:nrow(master)) {
