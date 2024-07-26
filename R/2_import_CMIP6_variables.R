@@ -108,6 +108,11 @@ for (i in 1:length(cmip6.tables)) {
             file = con, append = TRUE)
         cat("\n", file = con, append = TRUE)
         
+        ## dimensions
+        cat("\t\t<ds:dimensions rdf:datatype=\"http://www.w3.org/2001/XMLSchema#string\">",
+            var.attrs$dimensions, "</ds:dimensions>", sep = "", file = con, append = TRUE)
+        cat("\n", file = con, append = TRUE)
+        
         ## Comment
         comment <- fix.XML.char(var.attrs$comment) 
         cat("\t\t<rdfs:comment xml:lang=\"en\">", comment, "</rdfs:comment>",
