@@ -780,7 +780,8 @@ fix.XML.char <- function(string) {
         string <- gsub("<", "&lt;", string)    
     }
     if (grepl(">", string)) {
-        string <- gsub("<", "&gt;", string)    
+        string <- gsub(">", "&gt;", string)    
     }
+    return(string)
 }
 
