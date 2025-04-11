@@ -60,9 +60,9 @@ for (i in 1:length(insts)) {
     cat("\t<owl:NamedIndividual rdf:about=\"", instance, "\">",
         sep = "", file = con, append = TRUE)
     cat("\n", file = con, append = TRUE)
-    cat("\t\t<rdf:type rdf:resource=\"http://www.metaclip.org/datasource/datasource.owl#ModellingCenter\"/>\n",
+    cat("\t\t<rdf:type rdf:resource=\"https://www.metaclip.org/datasource/datasource.owl#ModellingCenter\"/>\n",
         file = con, append = TRUE)
-    cat("\t\t<rdf:type rdf:resource=\"http://www.metaclip.org/datasource/datasource.owl#DataProvider\"/>",
+    cat("\t\t<rdf:type rdf:resource=\"https://www.metaclip.org/datasource/datasource.owl#DataProvider\"/>",
         file = con, append = TRUE)
     cat("\n", file = con, append = TRUE)
     
