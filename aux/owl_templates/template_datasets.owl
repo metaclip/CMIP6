@@ -2,7 +2,7 @@
 <rdf:RDF xmlns="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-datasets.owl#" 
      xml:base="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-datasets.owl" 
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:ds="http://www.metaclip.org/datasource/datasource.owl#" 
+     xmlns:ds="https://www.metaclip.org/datasource/datasource.owl#" 
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -13,7 +13,7 @@
      xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-institutions.owl">
         <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-datasets.owl"/>
-        <owl:imports rdf:resource="http://www.metaclip.org/datasource/datasource.owl"/> 
+        <owl:imports rdf:resource="https://www.metaclip.org/datasource/datasource.owl"/> 
         <owl:imports rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
         <owl:imports rdf:resource="http://www.w3.org/ns/prov-o-20130430"/>
         <dc:creator xml:lang="en">Santander Meteorology Group</dc:creator>

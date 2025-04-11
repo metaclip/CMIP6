@@ -153,9 +153,9 @@ set.aerosol.individual <- function(aerosol.model.description) {
 # ind <- sapply(ml, "grepl",
 #               pattern = "^CMIP$") %>% sapply(., "any") %>% which(isTRUE(.))
 # CMIP.models <- model.list[ind]
-# ## Atmos 
-# sapply(1:length(scenMIP.models), function(i) {
-#     scenMIP.models[[i]][["model_component"]][["atmos"]]$description
+# ## Atmos
+# sapply(1:length(CMIP.models), function(i) {
+#     CMIP.models[[i]][["model_component"]][["atmos"]]$description
 # }) %>% unique()
 
 set.atmos.individual <- function(atmos.model.description) {
@@ -659,7 +659,7 @@ set.seaice.individual <- function(seaice.model.description) {
            "MRI.COM4.4" = "MRI.COM4.4",
            "CICE4.1" = "CICE4.1",
            "CICE" = "CICE",
-           "FESOM 2" = "FESOM 2",
+           "FESOM 2" = "FESOM2",
            "CICE4 (same grid as ocean)" = "CICE4",
            "MPAS-Seaice (E3SMv2.0, ocean grid, variable resolution 30 to 60 km; 5 ice categories; 7 ice, 5 snow layers)" = "MPAS-Seaice_E3SMv2.0",
            "MPAS-Seaice (E3SMv2.1, MPAS-Ocean grid; 5 ice categories, 7 ice layers, 5 snow layers)" = "MPAS-Seaice_E3SMv2.1",
