@@ -91,7 +91,7 @@ for (i in 1:length(scenMIP.models)) {
         cat("\t<owl:NamedIndividual rdf:about=\"", instance, "\">",
             sep = "", file = con, append = TRUE)
         cat("\n", file = con, append = TRUE)
-        cat("\t\t<rdf:type rdf:resource=\"https://www.metaclip.org/datasource/datasource.owl#GCM\"/>",
+        cat("\t\t<rdf:type rdf:resource=\"https://metaclip.org/datasource/datasource.owl#GCM\"/>",
             file = con, append = TRUE)
         cat("\n", file = con, append = TRUE)
         ## Additional properties:
@@ -165,7 +165,7 @@ for (i in 1:length(scenMIP.models)) {
                 
                 ## Individual Parent Class
                 mc.class <- setModelComponentClass(model.components[j])
-                cat("\t\t<rdf:type rdf:resource=\"https://www.metaclip.org/datasource/datasource.owl#",
+                cat("\t\t<rdf:type rdf:resource=\"https://metaclip.org/datasource/datasource.owl#",
                     mc.class, "\"/>", sep = "", file = con, append = TRUE)
                 cat("\n", file = con, append = TRUE)
                 cat("\t\t<dc:description xml:lang=\"en\">", desc, "</dc:description>",

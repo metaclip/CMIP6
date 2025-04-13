@@ -96,7 +96,7 @@ for (i in 1:length(cmip6.tables)) {
         cat("\t<owl:NamedIndividual rdf:about=\"", instance, "\">",
             sep = "", file = con, append = TRUE)
         cat("\n", file = con, append = TRUE)
-        cat("\t\t<rdf:type rdf:resource=\"https://www.metaclip.org/datasource/datasource.owl#Variable\"/>",
+        cat("\t\t<rdf:type rdf:resource=\"https://metaclip.org/datasource/datasource.owl#Variable\"/>",
             file = con, append = TRUE)
         cat("\n", file = con, append = TRUE)
         
