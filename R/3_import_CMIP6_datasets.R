@@ -55,7 +55,7 @@ for (i in 1:nrow(master)) {
     cat("\t<owl:NamedIndividual rdf:about=\"", instance, "\">",
         sep = "", file = con, append = TRUE)
     cat("\n", file = con, append = TRUE)
-    cat("\t\t<rdf:type rdf:resource=\"https://www.metaclip.org/datasource/datasource.owl#MultiDecadalSimulation\"/>",
+    cat("\t\t<rdf:type rdf:resource=\"https://metaclip.org/datasource/datasource.owl#MultiDecadalSimulation\"/>",
         file = con, append = TRUE)
     cat("\n", file = con, append = TRUE)
     
