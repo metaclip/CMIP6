@@ -290,7 +290,7 @@ set.atmosChem.individual <- function(atmosChem.model.description) {
            "SNAP (same grid as atmos)" = "SNAP",
            "UKCA-StratTrop" = "UKCA-StratTrop",
            "BCC-AGCM3-Chem" = "BCC-AGCM3-Chem",
-           "MAM3 (same grid as atmos)" = "MAM3 (same grid as atmos)",
+           "MAM3 (same grid as atmos)" = "MAM3",
            "Troposphere specified oxidants (except passive ozone with the lower boundary sink) for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (atmos physics grid)" = "troposhere-specified-oxidants-for-aerosols_LINOZv2",
            "OsloChemSimp4.1 (same grid as atmos)" = "OsloChemSimp4.1"
     )
