@@ -41,7 +41,7 @@ con <- file(owl.file, open = "a")
 # Vocabulary name
 
 # voc <- "http://www.metaclip.org/ScenarioMIP-models.owl"
-voc <- "https://raw.githubusercontent.com/metaclip/CMIP6/devel/CMIP6-models.owl"
+voc <- "https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-models.owl"
 
 ## @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 ## Include individuals ---------------------------------------------------------
