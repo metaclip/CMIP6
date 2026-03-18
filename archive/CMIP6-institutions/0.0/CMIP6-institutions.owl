@@ -13,12 +13,12 @@
      xmlns:geosparql="http://www.opengis.net/ont/geosparql#"
      xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/metaclip/CMIP6/main/CMIP6-institutions.owl">
-        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/metaclip/CMIP6/main/archive/CMIP6-institutions/0.0/CMIP6-institutions.owl"/>
+        <owl:versionIRI rdf:resource="https://metaclip.org/vocab/CMIP6/CMIP6-institutions/0.0/CMIP6-institutions.owl"/>
         <owl:imports rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
         <owl:imports rdf:resource="http://www.w3.org/ns/prov-o-20130430"/>
         <owl:imports rdf:resource="https://metaclip.org/datasource/datasource.owl"/>
         <dc:creator>METACLIP.org &lt;https://github.com/metaclip&gt;</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-10T08:28:00Z</dc:date>
+        <dc:date>2026-03-18T09:10:00Z</dc:date>
         <dc:description xml:lang="en">Semantic characterization of individual CMIP6 institutions using the METACLIP Framework Classes</dc:description>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcrp-cmip.github.io/CMIP6_CVs</dc:source>
         <dc:title xml:lang="en">METACLIP bindings for CMIP6 institution entities</dc:title>
